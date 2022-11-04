@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Black;
+    src: url("../font/SofiaPro/SofiaProBlack.otf");
+}
+
+@font-face {
+    font-family: Bold;
+    src: url("../font/SofiaPro/SofiaProBold.otf");
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url("../font/SofiaPro/SofiaProSemiBold.otf");
+}
+
+@font-face {
+    font-family: Medium;
+    src: url("../font/SofiaPro/SofiaProMedium.otf");
+}
+
+@font-face {
+    font-family: Regular;
+    src: url("../font/SofiaPro/SofiaProRegular.otf");
+}
+
+@font-face {
+    font-family: Light;
+    src: url("../font/SofiaPro/SofiaProLight.otf");
+}
+@font-face {
+    font-family: ExtraLight;
+    src: url("../font/SofiaPro/SofiaProExtraLight.otf");
+}
+
+.Black {
+    font-family: Black !important;
+}
+
+.Bold {
+    font-family: Bold !important;
+}
+
+.SemiBold {
+    font-family: SemiBold !important;
+}
+
+.Medium {
+    font-family: Medium !important;
+}
+
+.Regular {
+    font-family: Regular !important;
+}
+
+.Light {
+    font-family: Light !important;
+}
+.ExtraLight {
+    font-family: ExtraLight !important;
+}
+
+
+/*fancy*/
+
+@font-face {
+    font-family: Fancy-Regular;
+    src: url("../font/ACaslonPro/ACaslonPro-Regular.otf");
+}
+@font-face {
+    font-family: Fancy-Semibold;
+    src: url("../font/ACaslonPro/ACaslonPro-Semibold.otf");
+}
+
+.Fancy-Regular {
+    font-family: Fancy-Regular !important;
+}
+.Fancy-Semibold {
+    font-family: Fancy-Semibold !important;
+}

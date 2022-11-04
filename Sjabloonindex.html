@@ -1,0 +1,128 @@
+<!--Belongs to Visual Capture-->
+<!--Developed by Vincent.brain-->
+<!--Made by Vincent.hands-->
+
+<!--a looking though my code he-->
+<!--Well...-->
+<!--If you'd like u can use my code for anything. -->
+<!--However pls dont abuse my pictures. Thank you! -->
+<!doctype html >
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development | Visual Capture</title>
+    <link rel="icon" href="assets/images/general/favicon.jpg" type="image" sizes=32x32">
+    <link rel="stylesheet" href="assets/style/fonts.css">
+    <link rel="stylesheet" href="assets/style/bootstrap.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<style>
+
+    .pageShapeContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        overflow: hidden
+    }
+
+    .pageShapeContainer--light .pageShape path {
+        stroke: black;
+    }
+
+    .pageShape {
+        position: absolute;
+        pointer-events: none;
+        opacity: .4;
+        transition: opacity 0.2s linear
+    }
+
+    .pageShape--1 {
+        bottom: 50%;
+        right: 50%;
+        margin-bottom: -300px;
+        margin-right: -400px;
+        animation: shape1 20s infinite alternate linear
+    }
+
+    .pageShape--2 {
+        top: 50%;
+        left: 50%;
+        margin-top: -600px;
+        margin-left: -475px;
+        transform: rotate(15deg);
+        animation: shape2 20s infinite alternate linear
+    }
+
+    .pageShape path {
+        transition: all 0.4s linear
+    }
+
+    @keyframes shape1 {
+        0% {
+            transform: translateY(0) rotate(0deg)
+        }
+
+        100% {
+            transform: translateY(20%) rotate(20deg)
+        }
+    }
+
+    @keyframes shape2 {
+        0% {
+            transform: translateY(0) rotate(15deg)
+        }
+
+        100% {
+            transform: translateY(-20%) rotate(25deg)
+        }
+    }
+</style>
+
+<body>
+<div class="pageShapeContainer">
+    <svg width="1688" height="1769" xmlns="http://www.w3.org/2000/svg" class="pageShape pageShape--1">
+        <path d="M900.4 1490c-249.6 158.3-536.8 246-858.5 278L0 1741.8c40.8-9.7 71-2.2 234-40 163.2-37.8 290.4-74.5 427.2-163.5C864.7 1398.2 946 1193.2 717 852.7c-145.1-195.4-157-400.2-26.5-609.4C836.5 9.1 1181.2-78 1440.4 83.7c234 146.2 321.1 491 175 725.3-96 172.7-199.2 375.4-715 681z"
+              stroke="#000" stroke-width=".5" fill="none" fill-rule="evenodd"></path>
+    </svg>
+    <svg width="2145" height="2248" xmlns="http://www.w3.org/2000/svg" class="pageShape pageShape--2">
+        <path d="M1000.7 354.3C1317.8 153 1682.9 41.6 2091.7 1l53.3 33.3c-51.9 12.3-90.2 2.8-297.5 50.9-207.3 48-369 94.7-542.9 207.8-258.5 178.1-361.9 438.7-70.8 871.4 184.4 248.4 199.4 508.7 33.7 774.6-185.6 297.7-623.7 408.4-953 202.8C17 1956.1-93.7 1517.7 91.9 1220c122-219.6 253.3-477.2 908.8-865.7z"
+              stroke="#000" stroke-width=".5" fill="none" fill-rule="evenodd"></path>
+    </svg>
+</div>
+
+<picture>
+    <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoSmall.webp">
+    <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoSmall.png">
+    <img class="VC_logo" alt="">
+</picture>
+
+<div class="project color-green">
+    <div class="m-0 p-0 ">
+        <div class="row m-0 p-0">
+            <div class="col-lg-6 m-0 p-0">
+                <div class="ContextHolder">
+                    <div class="projectTitle">
+                        Get it on Picture
+                    </div>
+                    <div class="context">
+                        Something <span class="text-yellow">amazing</span> will be constructed here..
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 m-0 p-0">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/homepage/progress/lines.webp">
+                    <source type="image/jpg" srcset="assets/images/homepage/progress/lines.jpg">
+                    <img class="inProgress" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

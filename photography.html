@@ -7,10 +7,102 @@
     <link rel="icon" href="assets/images/general/favicon.jpg" type="image" sizes=32x32">
     <link rel="stylesheet" href="assets/style/fonts.css">
     <link rel="stylesheet" href="assets/style/bootstrap.css">
+    <link rel="stylesheet" href="assets/style/style_VC.css">
     <link rel="stylesheet" href="assets/style/style_photography.css">
 </head>
 <body>
-<h1>Fotografie</h1>
+
+
+<div>
+    <div class="pageShapeContainer">
+        <svg width="1688" height="1769" xmlns="http://www.w3.org/2000/svg" class="pageShape pageShape--1">
+            <path d="M900.4 1490c-249.6 158.3-536.8 246-858.5 278L0 1741.8c40.8-9.7 71-2.2 234-40 163.2-37.8 290.4-74.5 427.2-163.5C864.7 1398.2 946 1193.2 717 852.7c-145.1-195.4-157-400.2-26.5-609.4C836.5 9.1 1181.2-78 1440.4 83.7c234 146.2 321.1 491 175 725.3-96 172.7-199.2 375.4-715 681z"
+                  stroke="#fff" stroke-width=".5" fill="none" fill-rule="evenodd"></path>
+        </svg>
+        <svg width="2145" height="2248" xmlns="http://www.w3.org/2000/svg" class="whiteStroke pageShape pageShape--2">
+            <path d="M1000.7 354.3C1317.8 153 1682.9 41.6 2091.7 1l53.3 33.3c-51.9 12.3-90.2 2.8-297.5 50.9-207.3 48-369 94.7-542.9 207.8-258.5 178.1-361.9 438.7-70.8 871.4 184.4 248.4 199.4 508.7 33.7 774.6-185.6 297.7-623.7 408.4-953 202.8C17 1956.1-93.7 1517.7 91.9 1220c122-219.6 253.3-477.2 908.8-865.7z"
+                  stroke="#fff" stroke-width=".5" fill="none" fill-rule="evenodd"></path>
+        </svg>
+    </div>
+
+    <picture>
+        <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoWhite.webp">
+        <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoWhite.png">
+        <img class="VC_logo" alt="Logo White Visual Capture">
+    </picture>
+    <picture>
+        <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoMini.webp">
+        <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoMini.png">
+        <img class="VC_logo_mini" alt="Logo White Visual Capture">
+    </picture>
+
+
+    <picture class="picture-holder">
+        <source media="(min-width: 1200px)" type="image/webp"
+                srcset="assets/images/photography/intro/webp/photoLandingImageDesktop.webp">
+        <source media="(min-width: 1200px)" type="image/png"
+                srcset="assets/images/photography/intro/png/photoLandingImageDesktop.png">
+
+        <source media="(min-width: 768px)" type="image/webp"
+                srcset="assets/images/photography/intro/webp/photoLandingImage.webp">
+        <source media="(min-width: 768px)" type="image/png"
+                srcset="assets/images/photography/intro/png/photoLandingImage.png">
+
+        <source type="image/webp" srcset="assets/images/photography/intro/webp/photoLandingImageMobile.webp">
+        <source type="image/png" srcset="assets/images/photography/intro/png/photoLandingImageMobile.png">
+
+        <img class="photoLandingImage" alt="photography landing image">
+    </picture>
+
+
+    <div class="welcomeContainer">
+        <div class="title">
+            Het vast leggen van jouw visie
+        </div>
+        <div class="sub">
+            Jouw helpen het moment te herbeleven, het moment dat je het beleefde
+        </div>
+        <a href="#" class="callToAction">
+            <div class="text">
+                Neem contact op
+            </div>
+            <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg" alt="call To Action, Pretty Arrow, Go to"/>
+        </a>
+    </div>
+
+    <a href="#" class="callToActionMobile" style="display: none">
+        <div class="text">
+            Neem contact op
+        </div>
+        <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg" alt="call To Action, Pretty Arrow, Go to"/>
+        <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg" alt="call To Action, Pretty Arrow, Go to"/>
+    </a>
+
+    <div class="priceCalculator background-green hideOnMobile">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 p-0">
+                <div class="title">
+                    Prijsinschatting
+                </div>
+                <div class="sub">
+                    Heb je een idee maar weet je nog niet hoeveel het kan kosten? Maak dan vrijblijvend gebruik van de kostencalculator.
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4  p-0 position-relative">
+                <a href="#" class="callToAction">
+                    <div class="text">
+                        Kostencalculator
+                    </div>
+                    <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg" alt="call To Action, Pretty Arrow, Go to"/>
+                    <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg" alt="call To Action, Pretty Arrow, Go to"/>
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
 
 <div class="portfolio-container">
     <div class="m-0 p-0 ">
@@ -22,7 +114,7 @@
                             Capture
                         </div>
                         <div class="main">
-                            Couple's
+                            Koppels
                         </div>
                     </div>
                     <picture>
@@ -40,7 +132,8 @@
                                 It's all about you
                             </div>
                             <div class="description">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor.
                             </div>
                         </div>
                     </div>
@@ -107,7 +200,7 @@
                             Capture
                         </div>
                         <div class="main">
-                            Portrait's
+                            Portretten
                         </div>
                     </div>
                     <picture>
@@ -125,49 +218,56 @@
                                 It's all about you
                             </div>
                             <div class="description">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor.
                             </div>
                         </div>
                     </div>
                     <div class="row m-0 p-0">
                         <div class="col-lg-4 col-md-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/portraits/webp/portrait_1.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/portraits/webp/portrait_1.webp">
                                 <source type="image/png" srcset="assets/images/photography/portraits/portrait_1.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
                         </div>
                         <div class="col-lg-4 col-md-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/portraits/webp/portrait_2.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/portraits/webp/portrait_2.webp">
                                 <source type="image/png" srcset="assets/images/photography/portraits/portrait_2.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
                         </div>
                         <div class="col-lg-4 col-md-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/portraits/webp/portrait_3.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/portraits/webp/portrait_3.webp">
                                 <source type="image/png" srcset="assets/images/photography/portraits/portrait_3.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
                         </div>
                         <div class="col-lg-4 col-md-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/portraits/webp/portrait_4.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/portraits/webp/portrait_4.webp">
                                 <source type="image/png" srcset="assets/images/photography/portraits/portrait_4.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
                         </div>
                         <div class="col-lg-4 col-md-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/portraits/webp/portrait_5.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/portraits/webp/portrait_5.webp">
                                 <source type="image/png" srcset="assets/images/photography/portraits/portrait_5.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
                         </div>
                         <div class="col-lg-4 col-md-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/portraits/webp/portrait_6.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/portraits/webp/portrait_6.webp">
                                 <source type="image/png" srcset="assets/images/photography/portraits/portrait_6.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
@@ -192,7 +292,7 @@
                             Capture
                         </div>
                         <div class="main">
-                            Wedding's
+                            Bruiloften
                         </div>
                     </div>
                     <picture>
@@ -210,28 +310,32 @@
                                 It's all about you
                             </div>
                             <div class="description">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor.
                             </div>
                         </div>
                     </div>
                     <div class="row m-0 p-0">
                         <div class="col-lg-4 col-md-6 col-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/weddings/webp/wedding_1.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/weddings/webp/wedding_1.webp">
                                 <source type="image/png" srcset="assets/images/photography/weddings/png/wedding_1.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
                         </div>
                         <div class="col-lg-4 col-md-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/weddings/webp/wedding_2.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/weddings/webp/wedding_2.webp">
                                 <source type="image/png" srcset="assets/images/photography/weddings/png/wedding_2.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
                         </div>
                         <div class="col-lg-4 col-md-6 col-6 m-0 p-0">
                             <picture>
-                                <source type="image/webp" srcset="assets/images/photography/weddings/webp/wedding_3.webp">
+                                <source type="image/webp"
+                                        srcset="assets/images/photography/weddings/webp/wedding_3.webp">
                                 <source type="image/png" srcset="assets/images/photography/weddings/png/wedding_3.png">
                                 <img class="mini-portraits" alt="">
                             </picture>
@@ -245,6 +349,31 @@
 
 <!--spacing-->
 <div class="spacer-15"></div>
+
+<div class="priceCalculator portfolio-container showOnMobile hideOnDesktop hideOnTablet">
+    <div class="row">
+        <div class="col-sm-12 col-md-8 p-0">
+            <div class="title">
+                Prijsinschatting
+            </div>
+            <div class="sub">
+                Heb je een idee maar weet je nog niet hoeveel het kan kosten? Maak dan vrijblijvend gebruik van de kostencalculator.
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4  p-0 position-relative">
+            <a href="#" class="callToAction">
+                <div class="text">
+                    Kostencalculator
+                </div>
+                <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg" alt="call To Action, Pretty Arrow, Go to"/>
+                <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg" alt="call To Action, Pretty Arrow, Go to"/>
+            </a>
+        </div>
+    </div>
+
+
+
+</div>
 
 
 </body>

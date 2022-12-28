@@ -1,0 +1,594 @@
+:root {
+  --green: #00382F;
+  --blue: #14274A;
+  --yellow: #D0B866;
+  --white: #F5F5F7;
+  --dark: #121313;
+}
+
+.background-green {
+  background-color: var(--green);
+}
+
+.background-blue {
+  background-color: var(--blue);
+}
+
+::-moz-selection {
+  color: var(--white);
+  background: var(--yellow);
+}
+
+::selection {
+  color: var(--white);
+  background: var(--yellow);
+}
+
+a {
+  color: #F5F5F7;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #F5F5F7;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+}
+
+/*menu-menu*/
+.VC_logo {
+  margin-top: 1em;
+  font: 28px Bold, sans-serif;
+  text-decoration: none;
+  color: var(--dark);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 6.942em;
+  text-align: center;
+}
+
+.VC_logo_mini {
+  display: none;
+}
+
+.callToAction {
+  cursor: pointer;
+  display: block;
+}
+.callToAction .text {
+  font: 1em Regular, sans-serif;
+  display: inline-block;
+}
+.callToAction .VC_arrow {
+  width: 10vw;
+  width: 10vmin;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+.callToAction:hover {
+  color: var(--yellow);
+}
+
+.priceCalculator {
+  padding: 3em;
+  color: var(--white);
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
+  margin-bottom: 2em;
+}
+.priceCalculator .title {
+  font: 2.8em Fancy-Semibold, sans-serif;
+}
+.priceCalculator .sub {
+  padding-top: 0.4em;
+  font: 1.2em ExtraLight, sans-serif;
+  width: 90%;
+}
+.priceCalculator .callToAction {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.priceCalculator .callToAction .text {
+  font: 1.2em Regular, sans-serif;
+  display: inline-block;
+}
+.priceCalculator .callToAction .VC_arrow {
+  width: 6.5em;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+.priceCalculator .callToAction:hover {
+  color: var(--yellow);
+}
+.priceCalculator .callToAction:hover .VC_arrow {
+  display: none;
+}
+.priceCalculator .callToAction:hover .VC_arrow_gold {
+  width: 6.5em;
+  display: inline-block !important;
+  margin-left: 0.5em;
+}
+
+.welcomeContainer {
+  position: absolute;
+  top: 15em;
+  margin-left: 2em;
+  width: 40%;
+  text-align: left;
+  color: var(--white);
+}
+.welcomeContainer .title {
+  font: 3.8em Fancy-Semibold, sans-serif;
+}
+.welcomeContainer .sub {
+  padding-top: 1.2em;
+  font: 1.2em Regular, sans-serif;
+  margin-bottom: 2em;
+}
+
+@media screen and (min-width: 1501px) {
+  .hideOnDesktop {
+    display: none !important;
+  }
+
+  .showOnDesktop {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .hideOnDesktop {
+    display: none !important;
+  }
+
+  .showOnDesktop {
+    display: block !important;
+  }
+
+  .welcomeContainer {
+    position: absolute;
+    top: 12em;
+    margin-left: 2em;
+    width: 40%;
+    text-align: left;
+  }
+  .welcomeContainer .title {
+    font: 3.8em Fancy-Semibold, sans-serif;
+  }
+  .welcomeContainer .sub {
+    padding-top: 1.2em;
+    font: 1.2em Regular, sans-serif;
+    margin-bottom: 2em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .showOnTablet {
+    display: block !important;
+  }
+
+  .hideOnTablet {
+    display: none !important;
+  }
+
+  .welcomeContainer {
+    position: absolute;
+    top: 10em;
+    margin-left: 2em;
+    width: 43%;
+    text-align: left;
+  }
+  .welcomeContainer .title {
+    font: 3.2em Fancy-Semibold, sans-serif;
+  }
+  .welcomeContainer .sub {
+    padding-top: 1em;
+    font: 1em Regular, sans-serif;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .showOnTablet {
+    display: block !important;
+  }
+
+  .hideOnTablet {
+    display: none !important;
+  }
+
+  .welcomeContainer {
+    position: absolute;
+    top: 8em;
+    margin-left: 2em;
+    width: 45%;
+    text-align: left;
+  }
+  .welcomeContainer .title {
+    font: 3.2em Fancy-Semibold, sans-serif;
+  }
+  .welcomeContainer .sub {
+    padding-top: 1.2em;
+    font: 1em Regular, sans-serif;
+  }
+}
+@media screen and (max-width: 900px) {
+  .welcomeContainer {
+    position: absolute;
+    top: 7em;
+    margin-left: 2em;
+    width: 40%;
+    text-align: left;
+  }
+  .welcomeContainer .title {
+    font: 2.4em Fancy-Semibold, sans-serif;
+  }
+  .welcomeContainer .sub {
+    padding-top: 1.2em;
+    font: 1em Regular, sans-serif;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hideOnMobile {
+    display: none !important;
+  }
+
+  .showOnMobile {
+    display: block !important;
+  }
+
+  picture {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  picture .photoLandingImage {
+    width: 130%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    top: 0;
+    overflow: hidden;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .welcomeContainer {
+    margin: 0;
+    position: absolute;
+    top: 4em;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    text-align: center;
+    z-index: 3;
+  }
+  .welcomeContainer .title {
+    font: 2.6em Fancy-Semibold, sans-serif;
+  }
+  .welcomeContainer .sub {
+    padding-top: 1em;
+    font: 1em Regular, sans-serif;
+  }
+
+  .VC_logo {
+    display: none;
+  }
+
+  .VC_logo_mini {
+    display: block;
+    position: absolute;
+    margin: 0.5em 0 0 0.5em;
+    width: 15%;
+    left: 0;
+    top: 0;
+  }
+
+  .VC_logo_mobile {
+    display: block !important;
+    margin-top: 0.5em;
+    font: 28px Bold, sans-serif;
+    text-decoration: none;
+    color: var(--dark);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 25%;
+    text-align: center;
+    z-index: 3;
+  }
+
+  .callToAction {
+    display: none;
+  }
+
+  .callToActionMobile {
+    margin: 2em 5vw 2em 5vw;
+    padding: 0.3em 1.2em 0.3em 1.2em;
+    background-color: var(--yellow);
+    cursor: pointer;
+    display: block !important;
+    text-align: center;
+  }
+  .callToActionMobile .text {
+    font: 1em Regular, sans-serif;
+    display: inline-block;
+  }
+  .callToActionMobile .VC_arrow {
+    width: 5em;
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+  .callToActionMobile:hover {
+    background-color: var(--white);
+  }
+  .callToActionMobile:hover .text {
+    color: var(--yellow);
+  }
+  .callToActionMobile:hover .VC_arrow {
+    display: none;
+  }
+  .callToActionMobile:hover .VC_arrow_gold {
+    width: 5em;
+    display: inline-block !important;
+    margin-left: 0.5em;
+  }
+
+  .priceCalculator {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+    top: initial;
+    transform: initial;
+  }
+  .priceCalculator .title {
+    font: 2.2em Fancy-Semibold, sans-serif;
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  .priceCalculator .sub {
+    padding-top: 0.4em;
+    font: 1.2em ExtraLight, sans-serif;
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  .priceCalculator .callToAction {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    display: inline;
+    position: relative;
+  }
+  .priceCalculator .callToAction .text {
+    font: 0.8em Regular, sans-serif;
+    display: inline-block;
+  }
+  .priceCalculator .callToAction .VC_arrow {
+    width: 5em;
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+  .priceCalculator .callToAction:hover {
+    color: var(--yellow);
+  }
+  .priceCalculator .callToAction:hover .VC_arrow {
+    display: none;
+  }
+  .priceCalculator .callToAction:hover .VC_arrow_gold {
+    width: 5em;
+    display: inline-block !important;
+    margin-left: 0.5em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .welcomeContainer {
+    top: 3em;
+    width: 80%;
+  }
+  .welcomeContainer .title {
+    font: 2.2em Fancy-Semibold, sans-serif;
+  }
+  .welcomeContainer .sub {
+    padding-top: 0.8em;
+    font: 0.9em Regular, sans-serif;
+  }
+
+  .callToActionMobile {
+    margin: 2em 5vw 2em 5vw;
+    padding: 0.3em 1.2em 0.3em 1.2em;
+    background-color: var(--yellow);
+    cursor: pointer;
+    display: block !important;
+    text-align: center;
+  }
+  .callToActionMobile .text {
+    font: 0.8em Regular, sans-serif;
+    display: inline-block;
+  }
+  .callToActionMobile .VC_arrow {
+    width: 4em;
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+  .callToActionMobile:hover {
+    background-color: var(--white);
+  }
+  .callToActionMobile:hover .text {
+    color: var(--yellow);
+  }
+  .callToActionMobile:hover .VC_arrow {
+    display: none;
+  }
+  .callToActionMobile:hover .VC_arrow_gold {
+    width: 5em;
+    display: inline-block !important;
+    margin-left: 0.5em;
+  }
+
+  .priceCalculator {
+    padding: 2em;
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+    top: initial;
+    transform: initial;
+  }
+  .priceCalculator .title {
+    font: 2em Fancy-Semibold, sans-serif;
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  .priceCalculator .sub {
+    padding-top: 0.4em;
+    font: 1em ExtraLight, sans-serif;
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  .priceCalculator .callToAction {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    display: inline;
+    position: relative;
+  }
+  .priceCalculator .callToAction .text {
+    font: 0.8em Regular, sans-serif;
+    display: inline-block;
+  }
+  .priceCalculator .callToAction .VC_arrow {
+    width: 5em;
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+  .priceCalculator .callToAction:hover {
+    color: var(--yellow);
+  }
+  .priceCalculator .callToAction:hover .VC_arrow {
+    display: none;
+  }
+  .priceCalculator .callToAction:hover .VC_arrow_gold {
+    width: 5em;
+    display: inline-block !important;
+    margin-left: 0.5em;
+  }
+}
+@media screen and (max-width: 350px) {
+  .welcomeContainer {
+    top: 3em;
+    width: 90%;
+  }
+  .welcomeContainer .title {
+    font: 2em Fancy-Semibold, sans-serif;
+  }
+  .welcomeContainer .sub {
+    padding-top: 0.8em;
+    font: 0.8em Regular, sans-serif;
+  }
+
+  .priceCalculator {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+    top: initial;
+    transform: initial;
+  }
+  .priceCalculator .title {
+    font: 1.8em Fancy-Semibold, sans-serif;
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  .priceCalculator .sub {
+    padding-top: 0.4em;
+    font: 0.8em ExtraLight, sans-serif;
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  .priceCalculator .callToAction {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    display: inline;
+    position: relative;
+  }
+  .priceCalculator .callToAction .text {
+    font: 0.8em Regular, sans-serif;
+    display: inline-block;
+  }
+  .priceCalculator .callToAction .VC_arrow {
+    width: 5em;
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+  .priceCalculator .callToAction:hover {
+    color: var(--yellow);
+  }
+  .priceCalculator .callToAction:hover .VC_arrow {
+    display: none;
+  }
+  .priceCalculator .callToAction:hover .VC_arrow_gold {
+    width: 5em;
+    display: inline-block !important;
+    margin-left: 0.5em;
+  }
+}
+/*Background lines start*/
+.pageShapeContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.pageShapeContainer--light .pageShape path {
+  stroke: black;
+}
+
+.pageShape {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.4;
+  transition: opacity 0.2s linear;
+}
+
+.pageShape--1 {
+  bottom: 50%;
+  right: 50%;
+  margin-bottom: -300px;
+  margin-right: -400px;
+  animation: shape1 20s infinite alternate linear;
+}
+
+.pageShape--2 {
+  top: 50%;
+  left: 50%;
+  margin-top: -600px;
+  margin-left: -475px;
+  transform: rotate(15deg);
+  animation: shape2 20s infinite alternate linear;
+}
+
+.pageShape path {
+  transition: all 0.4s linear;
+}
+
+@keyframes shape1 {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(20%) rotate(20deg);
+  }
+}
+@keyframes shape2 {
+  0% {
+    transform: translateY(0) rotate(15deg);
+  }
+  100% {
+    transform: translateY(-20%) rotate(25deg);
+  }
+}
+/*Background lines end*/
+
+/*# sourceMappingURL=style_VC.css.map */

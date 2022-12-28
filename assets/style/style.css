@@ -75,20 +75,7 @@ hr {
 }
 
 
-/*menu-menu*/
-.VC_logo {
-    margin-top: 1em;
-    font: 28px Bold, sans-serif;
-    text-decoration: none;
-    color: var(--dark);
-    position: absolute;
-    /*top: 35px;*/
-    left: 50%;
-    /*transform: translate(-50%, -50%);*/
-    transform: translate(-50%);
-    width: 6.9420em;
-    text-align: center;
-}
+
 
 
 .noAWhite {

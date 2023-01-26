@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 p {
   margin: 0;
 }
@@ -127,7 +131,6 @@ h4 {
 }
 
 .circle_blur {
-  position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -136,10 +139,11 @@ h4 {
   filter: blur(150px);
   position: absolute;
   left: -25%;
-  opacity: 0.5;
+  bottom: -20%;
+  opacity: 0.8;
   z-index: -1;
   width: 55%;
-  height: 55%;
+  height: 35%;
   aspect-ratio: 2;
   border-radius: 1000vmax 1000vmax 0 0;
 }
@@ -151,13 +155,9 @@ h4 {
   opacity: 0.5;
   z-index: -1;
   width: 55%;
+  height: 55%;
   aspect-ratio: 2;
   border-radius: 1000vmax 1000vmax 0 0;
-  position: absolute;
-  width: 50em;
-  z-index: 0;
-  right: -35%;
-  top: -20%;
 }
 .circle_blur .circle_blur_green {
   background-color: var(--green);

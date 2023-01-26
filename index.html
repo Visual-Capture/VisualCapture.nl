@@ -53,30 +53,32 @@
     </svg>
 </div>
 
-<picture>
-    <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoBlack.webp">
-    <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoBlack.png">
-    <img class="VC_logo" alt="Logo Visual Capture">
-</picture>
+<a href="index.html">
+    <picture>
+        <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoBlack.webp">
+        <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoBlack.png">
+        <img class="VC_logo" alt="Logo Visual Capture">
+    </picture>
 
-<picture>
-    <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoWhiteSmall.webp">
-    <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoWhiteSmall.png">
-    <img class="VC_logo_mobile" alt="Logo White Visual Capture" style="display: none">
-</picture>
+    <picture>
+        <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoWhiteSmall.webp">
+        <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoWhiteSmall.png">
+        <img class="VC_logo_mobile" alt="Logo White Visual Capture" style="display: none">
+    </picture>
+</a>
 
 
 <div class="container VC_options">
     <div class="row no_spacing_mob">
         <div class="col-md-6 no_spacing_mob">
-            <div class="VC_option_holder">
+            <div id="Photography" class="VC_option_holder hidden">
                 <a href="photography.html">
                     <picture>
                         <source type="image/webp" srcset="assets/images/homepage/options/background/green_leather.webp">
                         <source type="image/jpg" srcset="assets/images/homepage/options/background/green_leather.jpg">
                         <img class="web_img_bg" alt="Fancy green leather background">
                     </picture>
-                    <div class="web-img">
+                    <div id="image_startup_Photography" class="web-img image_startup">
                         <picture>
                             <source type="image/webp" srcset="assets/images/homepage/options/images/photo-img.webp">
                             <source type="image/jpg" srcset="assets/images/homepage/options/images/photo-img.jpg">
@@ -96,7 +98,7 @@
             </div>
         </div>
         <div class="col-md-6 no_spacing_mob">
-            <div class="VC_option_holder">
+            <div id="WebProducts" class="VC_option_holder hidden">
                 <a href="webproducts.html">
                     <picture>
                         <source type="image/webp"
@@ -105,7 +107,7 @@
                                 srcset="assets/images/homepage/options/background/blue_leather.jpg">
                         <img class="web_img_bg" alt="Fancy green leather background">
                     </picture>
-                    <div class="web-img">
+                    <div id="image_startup_WebProducts" class="web-img image_startup">
                         <picture>
                             <source type="image/webp" srcset="assets/images/homepage/options/images/web-img.webp">
                             <source type="image/jpg" srcset="assets/images/homepage/options/images/web-img.jpg">
@@ -138,13 +140,22 @@
 <script>
 
     setTimeout(() => {
-        document.getElementById("intro-loader").style.display = "none",
-            document.body.style.overflow = "scroll"
-    }, 10);
+        systemStart();
+    }, 2000);
+    // }, 10);
 
-    // setTimeout(() => {
-    //     document.getElementById("intro-loader").style.display = "none",
-    //         document.body.style.overflow = "scroll"
-    // }, 2000);
+    function systemStart() {
+        document.getElementById("WebProducts").classList.add("show");
+        document.getElementById("Photography").classList.add("show");
+
+        document.getElementById("intro-loader").style.display = "none",
+            document.body.style.overflow = "scroll";
+        move();
+    }
+
+    function move() {
+        document.getElementById("image_startup_Photography").classList.add("move");
+        document.getElementById("image_startup_WebProducts").classList.add("move");
+    }
 
 </script>

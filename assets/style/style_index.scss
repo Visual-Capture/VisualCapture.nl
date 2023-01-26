@@ -1,3 +1,24 @@
+
+.hidden{
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
+
+.image_startup{
+    transform: translateY(6em) scale(.94);
+    transition-duration: .5s;
+}
+
+.move{
+    transform: none;
+}
+
+.show{
+    opacity: 100;
+    transform: none;
+}
+
 @media screen and (min-width: 768px) {
     .VC_options {
         position: relative;

@@ -3,6 +3,7 @@
   --blue: #14274A;
   --yellow: #D0B866;
   --white: #F5F5F7;
+  --extrawhite: #fff;
   --dark: #121313;
 }
 
@@ -11,6 +12,20 @@
 }
 .background-blue{
   background-color: var(--blue);
+}
+
+/*spacer*/
+
+.spacer-5 {
+  padding-top: 5%;
+}
+
+.spacer-15 {
+  padding-top: 15%;
+}
+
+.spacer-25 {
+  padding-top: 25%;
 }
 
 ::-moz-selection {
@@ -131,6 +146,7 @@ html {
   width: 40%;
   text-align: left;
   color: var(--white);
+  text-shadow: 5px 5px 20px rgba(1,1,1, 0.25);
 
   .title {
     font: 3.8em Fancy-Semibold, sans-serif;
@@ -143,7 +159,8 @@ html {
   }
 }
 
-//welcome
+//footer
+
 
 //Ultrawide
 @media screen and (min-width: 1501px) {

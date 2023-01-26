@@ -1,3 +1,22 @@
+.hidden {
+  opacity: 0;
+  transition-duration: 1.5s;
+}
+
+.image_startup {
+  transform: translateY(6em) scale(0.94);
+  transition-duration: 0.5s;
+}
+
+.move {
+  transform: none;
+}
+
+.show {
+  opacity: 100;
+  transform: none;
+}
+
 @media screen and (min-width: 768px) {
   .VC_options {
     position: relative;
@@ -81,6 +100,25 @@
 @media screen and (max-width: 768px) {
   body {
     background-image: url("../../assets/images/general/Dark_luxery_leather_background.webp");
+  }
+
+  .VC_logo {
+    display: none;
+  }
+
+  .VC_logo_mobile {
+    display: block !important;
+    margin-top: 0.5em;
+    font: 28px Bold, sans-serif;
+    text-decoration: none;
+    color: var(--dark);
+    position: absolute;
+    /*top: 35px;*/
+    left: 50%;
+    transform: translate(-50%);
+    width: 25%;
+    text-align: center;
+    z-index: 3;
   }
 
   .VC_options {

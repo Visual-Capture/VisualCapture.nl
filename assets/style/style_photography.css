@@ -66,6 +66,47 @@ body {
   font: 1.3em ExtraLight, sans-serif;
 }
 
+.circle_blur_gold {
+  background-color: var(--yellow);
+  filter: blur(150px);
+  position: absolute;
+  left: -25%;
+  opacity: 0.5;
+  z-index: -1;
+  width: 55%;
+  height: 55%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_blue {
+  background-color: var(--blue);
+  filter: blur(150px);
+  position: absolute;
+  right: -25%;
+  opacity: 0.5;
+  z-index: -1;
+  width: 55%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+  position: absolute;
+  width: 50em;
+  z-index: 0;
+  right: -35%;
+  top: -20%;
+}
+.circle_blur_green {
+  background-color: var(--green);
+  filter: blur(150px);
+  position: absolute;
+  right: -30%;
+  opacity: 0.5;
+  z-index: -1;
+  width: 60%;
+  height: 60%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+
 .ourStoryText .coloredTitle {
   color: var(--yellow);
   font: 1em ExtraLight, sans-serif;
@@ -120,18 +161,6 @@ body {
   .subTitle .description {
     font: 1em ExtraLight, sans-serif;
   }
-}
-/*spacer*/
-.spacer-5 {
-  padding-top: 5%;
-}
-
-.spacer-15 {
-  padding-top: 15%;
-}
-
-.spacer-25 {
-  padding-top: 25%;
 }
 
 /*# sourceMappingURL=style_photography.css.map */

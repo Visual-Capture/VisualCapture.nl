@@ -74,16 +74,17 @@ class DragScroll {
     }
 
     events() {
-        window.addEventListener('resize', this.calculate)
-        window.addEventListener('wheel', this.handleWheel)
+        const work_content = document.getElementById("work_content")
+        work_content.addEventListener('resize', this.calculate)
+        work_content.addEventListener('wheel', this.handleWheel)
         //
         this.$el.addEventListener('touchstart', this.handleTouchStart)
-        window.addEventListener('touchmove', this.handleTouchMove)
-        window.addEventListener('touchend', this.handleTouchEnd)
+        work_content.addEventListener('touchmove', this.handleTouchMove)
+        work_content.addEventListener('touchend', this.handleTouchEnd)
         //
-        window.addEventListener('mousedown', this.handleTouchStart)
-        window.addEventListener('mousemove', this.handleTouchMove)
-        window.addEventListener('mouseup', this.handleTouchEnd)
+        work_content.addEventListener('mousedown', this.handleTouchStart)
+        work_content.addEventListener('mousemove', this.handleTouchMove)
+        work_content.addEventListener('mouseup', this.handleTouchEnd)
         document.body.addEventListener('mouseleave', this.handleTouchEnd)
     }
 

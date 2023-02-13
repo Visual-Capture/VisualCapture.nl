@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/style/bootstrap.css">
     <link rel="stylesheet" href="assets/style/style_VC.css">
     <link rel="stylesheet" href="assets/style/style_webproducts.css">
+    <link rel="stylesheet" href="assets/style/swiper-bundle.min.css">
+<!--    <link rel="stylesheet" href="assets/style/swiper.css">-->
 </head>
 <body>
 
@@ -111,369 +113,470 @@
 </div>
 
 
-<div class="circle_blur">
-    <div class="circle_blur_gold"></div>
-</div>
+<div class="circle_blur_gold"></div>
 
-<div class="card-container">
-    <div class="row m-0">
-        <div class="col-lg-4 col-md-4 m-0 p-0">
-            <div class="VC_card">
-                <picture>
-                    <source type="image/webp" srcset="assets/images/webproducts/icons/webp/VC_design_icon.webp">
-                    <source type="image/png" srcset="assets/images/webproducts/icons/png/VC_design_icon.png">
-                    <img class="VC_card_icon" alt="Design - Visual Capture">
-                </picture>
-                <h1 class="title">
-                    Ontwerp op maat
-                </h1>
-                <p class="desc">
-                    Een uniek ontwerp dat speciaal is afgesteld op jouw bedrijf en doelgroep.
-                </p>
+<div class="Visual_Capture_portfolio">
+    <div class="card-container">
+        <div class="row m-0">
+            <div class="col-lg-4 col-md-4 m-0 p-0">
+                <div class="VC_card">
+                    <picture>
+                        <source type="image/webp" srcset="assets/images/webproducts/icons/webp/VC_design_icon.webp">
+                        <source type="image/png" srcset="assets/images/webproducts/icons/png/VC_design_icon.png">
+                        <img class="VC_card_icon" alt="Design - Visual Capture">
+                    </picture>
+                    <h1 class="title">
+                        Ontwerp op maat
+                    </h1>
+                    <p class="desc">
+                        Een uniek ontwerp dat speciaal is afgesteld op jouw bedrijf en doelgroep.
+                    </p>
 
-                <a href="#" class="callToActionWeb">
-                    <div class="row m-0 p-0">
-                        <div class="col-6  m-0 p-0">
-                            <h4 class="text">
-                                Hoe we<br> ontwerpen
-                            </h4>
+                    <a href="#" class="callToActionWeb">
+                        <div class="row m-0 p-0">
+                            <div class="col-6  m-0 p-0">
+                                <h4 class="text">
+                                    Hoe we<br> ontwerpen
+                                </h4>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
+                                     alt="call To Action, Pretty Arrow, Go to"/>
+                                <img class="VC_arrow_gold" style="display: none"
+                                     src="assets/images/general/VC-arrow.svg"
+                                     alt="call To Action, Pretty Arrow, Go to"/>
+                            </div>
                         </div>
-                        <div class="col-6 m-0 p-0">
-                            <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
-                                 alt="call To Action, Pretty Arrow, Go to"/>
-                            <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg"
-                                 alt="call To Action, Pretty Arrow, Go to"/>
-                        </div>
-                    </div>
-                </a>
+                    </a>
 
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-4 m-0 p-0">
-            <div class="VC_card">
-                <picture>
-                    <source type="image/webp" srcset="assets/images/webproducts/icons/webp/VC_business_icon.webp">
-                    <source type="image/png" srcset="assets/images/webproducts/icons/png/VC_business_icon.png">
-                    <img class="VC_card_icon" alt="Design - Visual Capture">
-                </picture>
-                <h1 class="title">
-                    Je bedrijf online
-                    laten groeien
-                </h1>
-                <p class="desc">
-                    Een goede website is de basis van online succes. Dit is meestal de eerste referentie voor potentiële
-                    klanten.
-                </p>
-                <a href="#" class="callToActionWeb">
-                    <div class="row m-0 p-0">
-                        <div class="col-6  m-0 p-0">
-                            <h4 class="text">
-                                Start jouw<br>
-                                bedrijf
-                            </h4>
+            <div class="col-lg-4 col-md-4 m-0 p-0">
+                <div class="VC_card">
+                    <picture>
+                        <source type="image/webp" srcset="assets/images/webproducts/icons/webp/VC_business_icon.webp">
+                        <source type="image/png" srcset="assets/images/webproducts/icons/png/VC_business_icon.png">
+                        <img class="VC_card_icon" alt="Design - Visual Capture">
+                    </picture>
+                    <h1 class="title">
+                        Je bedrijf online
+                        laten groeien
+                    </h1>
+                    <p class="desc">
+                        Een goede website is de basis van online succes. Dit is meestal de eerste referentie voor
+                        potentiële
+                        klanten.
+                    </p>
+                    <a href="#" class="callToActionWeb">
+                        <div class="row m-0 p-0">
+                            <div class="col-6  m-0 p-0">
+                                <h4 class="text">
+                                    Start jouw<br>
+                                    bedrijf
+                                </h4>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
+                                     alt="call To Action, Pretty Arrow, Go to"/>
+                                <img class="VC_arrow_gold" style="display: none"
+                                     src="assets/images/general/VC-arrow.svg"
+                                     alt="call To Action, Pretty Arrow, Go to"/>
+                            </div>
                         </div>
-                        <div class="col-6 m-0 p-0">
-                            <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
-                                 alt="call To Action, Pretty Arrow, Go to"/>
-                            <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg"
-                                 alt="call To Action, Pretty Arrow, Go to"/>
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-4 m-0 p-0">
-            <div class="VC_card">
-                <picture>
-                    <source type="image/webp" srcset="assets/images/webproducts/icons/webp/VC_marketing_icon.webp">
-                    <source type="image/png" srcset="assets/images/webproducts/icons/png/VC_marketing_icon.png">
-                    <img class="VC_card_icon" alt="Design - Visual Capture">
-                </picture>
-                <h1 class="title">
-                    Vergroot je
-                    klanten bereik
-                </h1>
-                <p class="desc">
-                    Online marketing is hoe je jouw producten of diensten via het internet aan biedt.
-                </p>
-                <a href="#" class="callToActionWeb">
-                    <div class="row m-0 p-0">
-                        <div class="col-6  m-0 p-0">
-                            <h4 class="text">
-                                Groei je<br>
-                                bedrijf
-                            </h4>
+            <div class="col-lg-4 col-md-4 m-0 p-0">
+                <div class="VC_card">
+                    <picture>
+                        <source type="image/webp" srcset="assets/images/webproducts/icons/webp/VC_marketing_icon.webp">
+                        <source type="image/png" srcset="assets/images/webproducts/icons/png/VC_marketing_icon.png">
+                        <img class="VC_card_icon" alt="Design - Visual Capture">
+                    </picture>
+                    <h1 class="title">
+                        Vergroot je
+                        klanten bereik
+                    </h1>
+                    <p class="desc">
+                        Online marketing is hoe je jouw producten of diensten via het internet aan biedt.
+                    </p>
+                    <a href="#" class="callToActionWeb">
+                        <div class="row m-0 p-0">
+                            <div class="col-6  m-0 p-0">
+                                <h4 class="text">
+                                    Groei je<br>
+                                    bedrijf
+                                </h4>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
+                                     alt="call To Action, Pretty Arrow, Go to"/>
+                                <img class="VC_arrow_gold" style="display: none"
+                                     src="assets/images/general/VC-arrow.svg"
+                                     alt="call To Action, Pretty Arrow, Go to"/>
+                            </div>
                         </div>
-                        <div class="col-6 m-0 p-0">
-                            <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
-                                 alt="call To Action, Pretty Arrow, Go to"/>
-                            <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg"
-                                 alt="call To Action, Pretty Arrow, Go to"/>
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="circle_blur">
     <div class="circle_blur_blue"></div>
-</div>
 
-<div class="VC_work_container">
-    <div class="work_content">
-        <h3 class="sub">
-            Handgemaakte websites
-        </h3>
+    <div class="VC_work_container">
+        <div class="work_content">
+            <h3 class="sub">
+                Websites op maat
+            </h3>
+            <h1 class="main">
+                Web Producten
+            </h1>
+        </div>
+        <div class="carousel_holder" id="work_content">
+            <div id="VC_work_carousel" class="carousel">
+                <div class="carousel--wrap">
+                    <div class="VC_carousel">
+                        <picture>
+                            <source media="(min-width: 1200px)" type="image/webp"
+                                    srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_background_LG.webp">
+                            <source media="(min-width: 1200px)" type="image/png"
+                                    srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_background_LG.png">
+
+                            <source media="(min-width: 768px)" type="image/webp"
+                                    srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_background.webp">
+                            <source media="(min-width: 768px)" type="image/png"
+                                    srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_background.png">
+
+                            <source type="image/webp"
+                                    srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_background_MD.webp">
+                            <source type="image/png"
+                                    srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_background_MD.png">
+                            <img class="VC_work_background" alt="Work background Visual Capture x De Brabant Makelaar">
+                        </picture>
+                        <div class="VC_work_content row m-0 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-6 m-0 p-0">
+                                <picture>
+                                    <source type="image/webp"
+                                            srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_logo_MD.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_logo_MD.png">
+                                    <img class="VC_work_logo" alt="Partner logos">
+                                </picture>
+                                <p class="VC_work_description">
+                                    Sneller jouw woning verkopen én nog gratis ook?
+                                    Bij De Brabant Makelaar kan dat!<br>
+                                    Biedsysteem op maat, open, transparant en makkelijk.
+
+                                </p>
+                            </div>
+                            <div class="work_picture_holder col-lg-8 col-md-8 col-sm-6 m-0 p-0">
+                                <picture>
+                                    <source media="(min-width: 768px)" type="image/webp"
+                                            srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_work_LG.webp">
+                                    <source media="(min-width: 768px)" type="image/png"
+                                            srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_work_LG.webp">
+
+                                    <source type="image/webp"
+                                            srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_work_MD.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_work_MD.png">
+                                    <img class="VC_work" alt="Work of Visual Capture">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="VC_carousel">
+                        <picture>
+                            <source media="(min-width: 1200px)" type="image/webp"
+                                    srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_background_LG.webp">
+                            <source media="(min-width: 1200px)" type="image/png"
+                                    srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_background_LG.png">
+
+                            <source media="(min-width: 768px)" type="image/webp"
+                                    srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_background.webp">
+                            <source media="(min-width: 768px)" type="image/png"
+                                    srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_background.png">
+
+                            <source type="image/webp"
+                                    srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_background_MD.webp">
+                            <source type="image/png"
+                                    srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_background_MD.png">
+                            <img class="VC_work_background" alt="Work background Visual Capture x De Brabant Makelaar">
+                        </picture>
+                        <div class="VC_work_content row m-0 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-6 m-0 p-0">
+                                <picture>
+                                    <source type="image/webp"
+                                            srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_logo_MD.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_logo_MD.png">
+                                    <img class="VC_work_logo" alt="Partner logos">
+                                </picture>
+                                <p class="VC_work_description text-white">
+                                    De Specialist in het duur- en voedzame alternatief van vlees.<br>
+                                    Website & ontwerp op maat. Incl. Webshop
+                                </p>
+                            </div>
+                            <div class="work_picture_holder col-lg-8 col-md-8 col-sm-6 m-0 p-0">
+                                <picture>
+                                    <source media="(min-width: 768px)" type="image/webp"
+                                            srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_work_LG.webp">
+                                    <source media="(min-width: 768px)" type="image/png"
+                                            srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_work_LG.webp">
+
+                                    <source type="image/webp"
+                                            srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_work_MD.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_work_MD.png">
+                                    <img class="VC_work" alt="Work of Visual Capture">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="VC_carousel">
+                        <picture>
+                            <source media="(min-width: 1200px)" type="image/webp"
+                                    srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_background_LG.webp">
+                            <source media="(min-width: 1200px)" type="image/png"
+                                    srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_background_LG.png">
+
+                            <source media="(min-width: 768px)" type="image/webp"
+                                    srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_background.webp">
+                            <source media="(min-width: 768px)" type="image/png"
+                                    srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_background.png">
+
+                            <source type="image/webp"
+                                    srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_background_MD.webp">
+                            <source type="image/png"
+                                    srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_background_MD.png">
+                            <img class="VC_work_background" alt="Work background Visual Capture x De Brabant Makelaar">
+                        </picture>
+                        <div class="VC_work_content row m-0 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-6 m-0 p-0">
+                                <picture>
+                                    <source type="image/webp"
+                                            srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_logo_MD.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_logo_MD.png">
+                                    <img class="VC_work_logo" alt="Partner logos" style="width: 5em">
+                                </picture>
+                                <p class="VC_work_description">
+                                    Geniet van luxe en rust & “YES I DO” op een unieke historische & intieme locatie.
+                                    Bed & Breakfast, gastenverblijven, evenementen & trouwlocaties
+
+                                </p>
+                            </div>
+                            <div class="work_picture_holder col-lg-8 col-md-8 col-sm-6 m-0 p-0">
+                                <picture>
+                                    <source media="(min-width: 768px)" type="image/webp"
+                                            srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_work_LG.webp">
+                                    <source media="(min-width: 768px)" type="image/png"
+                                            srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_work_LG.webp">
+
+                                    <source type="image/webp"
+                                            srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_work_MD.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_work_MD.png">
+                                    <img class="VC_work" alt="Work of Visual Capture">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="VC_carousel">
+                        <picture>
+                            <source media="(min-width: 1200px)" type="image/webp"
+                                    srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_background_LG.webp">
+                            <source media="(min-width: 1200px)" type="image/png"
+                                    srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_background_LG.png">
+
+                            <source media="(min-width: 768px)" type="image/webp"
+                                    srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_background.webp">
+                            <source media="(min-width: 768px)" type="image/png"
+                                    srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_background.png">
+
+                            <source type="image/webp"
+                                    srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_background_MD.webp">
+                            <source type="image/png"
+                                    srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_background_MD.png">
+                            <img class="VC_work_background" alt="Work background Visual Capture x De Brabant Makelaar">
+                        </picture>
+                        <div class="VC_work_content row m-0 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-6 m-0 p-0">
+                                <picture>
+                                    <source type="image/webp"
+                                            srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_logo_MD.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_logo_MD.png">
+                                    <img class="VC_work_logo" alt="Partner logos">
+                                </picture>
+                                <p class="VC_work_description text-white">
+
+                                    Een investeringsgroep gebaseerd in Eindhoven dat specialiseert in real estate.
+                                    Web portfolio & ontwerp op maat.
+
+                                </p>
+                            </div>
+                            <div class="work_picture_holder col-lg-8 col-md-8 col-sm-6 m-0 p-0">
+                                <picture>
+                                    <source media="(min-width: 768px)" type="image/webp"
+                                            srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_work_LG.webp">
+                                    <source media="(min-width: 768px)" type="image/png"
+                                            srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_work_LG.webp">
+
+                                    <source type="image/webp"
+                                            srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_work_MD.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_work_MD.png">
+                                    <img class="VC_work" alt="Work of Visual Capture">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel--progress">
+                    <div class="carousel--progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer-15"></div>
+
+
+    <div class="work_deliverables">
         <h1 class="main">
-            Web Producten
+            Dit doen we voor jou
         </h1>
+        <h3 class="sub">
+            Een greep uit alles wat we voor jou kunnen doen.
+        </h3>
+
+        <div class="swiper side-fades mySwiper">
+            <div class="swiper-wrapper ">
+
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Doorontwikkeling
+                    </h2>
+                    <p class="sub">
+                        Ons werk eindigt niet na de oplevering.
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Webdesign
+                    </h2>
+                    <p class="sub">
+                        Een tweede kans om een eerste indruk te maken krijg je niet.
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Wireframing
+                    </h2>
+                    <p class="sub">
+                        We nemen het prototype als startpunt en bouwen daar verder op.
+
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Development
+                    </h2>
+                    <p class="sub">
+                        Een website die niet alleen verleidelijk is, maar ook een verstandige opbouw heeft.
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Search Engine Optimisation
+                    </h2>
+                    <p class="sub">
+                        Wil jij vindbaar zijn in de natuurlijke zoekresultaten? Wij regelen het voor je.
+                    </p>
+                </div>
+
+                <!--dupe-->
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Doorontwikkeling
+                    </h2>
+                    <p class="sub">
+                        Ons werk eindigt niet na de oplevering.
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Webdesign
+                    </h2>
+                    <p class="sub">
+                        Een tweede kans om een eerste indruk te maken krijg je niet.
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Wireframing
+                    </h2>
+                    <p class="sub">
+                        We nemen het prototype als startpunt en bouwen daar verder op.
+
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Development
+                    </h2>
+                    <p class="sub">
+                        Een website die niet alleen verleidelijk is, maar ook een verstandige opbouw heeft.
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="main">
+                        Search Engine Optimisation
+                    </h2>
+                    <p class="sub">
+                        Wil jij vindbaar zijn in de natuurlijke zoekresultaten? Wij regelen het voor je.
+                    </p>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
-    <div class="carousel_holder">
-        <div id="VC_work_carousel" class="carousel">
-            <div class="carousel--wrap">
-                <div class="VC_carousel">
-                    <picture>
-                        <source media="(min-width: 1200px)" type="image/webp"
-                                srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_background_LG.webp">
-                        <source media="(min-width: 1200px)" type="image/png"
-                                srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_background_LG.png">
 
-                        <source media="(min-width: 768px)" type="image/webp"
-                                srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_background.webp">
-                        <source media="(min-width: 768px)" type="image/png"
-                                srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_background.png">
-
-                        <source type="image/webp"
-                                srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_background_MD.webp">
-                        <source type="image/png"
-                                srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_background_MD.png">
-                        <img class="VC_work_background" alt="Work background Visual Capture x De Brabant Makelaar">
-                    </picture>
-                    <div class="VC_work_content row m-0 p-0">
-                        <div class="col-lg-4 col-md-4 col-sm-6 m-0 p-0">
-                            <picture>
-                                <source type="image/webp"
-                                        srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_logo_MD.webp">
-                                <source type="image/png"
-                                        srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_logo_MD.png">
-                                <img class="VC_work_logo" alt="Partner logos">
-                            </picture>
-                            <p class="VC_work_description">
-                                Sneller jouw woning verkopen én nog gratis ook?
-                                Bij De Brabant Makelaar kan dat!<br>
-                                Biedsysteem op maat, open, transparant en makkelijk.
-
-                            </p>
-                        </div>
-                        <div class="work_picture_holder col-lg-8 col-md-8 col-sm-6 m-0 p-0">
-                            <picture>
-                                <source media="(min-width: 768px)" type="image/webp"
-                                        srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_work_LG.webp">
-                                <source media="(min-width: 768px)" type="image/png"
-                                        srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_work_LG.webp">
-
-                                <source type="image/webp"
-                                        srcset="assets/images/webproducts/websites/DBM/webp/VC_DBM_work_MD.webp">
-                                <source type="image/png"
-                                        srcset="assets/images/webproducts/websites/DBM/png/VC_DBM_work_MD.png">
-                                <img class="VC_work" alt="Work of Visual Capture">
-                            </picture>
-                        </div>
-                    </div>
+    <div class="spacer-15"></div>
+    <div class="priceCalculator background-blue showOnMobile hideOnDesktop hideOnTablet">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 p-0">
+                <div class="title">
+                    Prijsinschatting
                 </div>
-                <div class="VC_carousel">
-                    <picture>
-                        <source media="(min-width: 1200px)" type="image/webp"
-                                srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_background_LG.webp">
-                        <source media="(min-width: 1200px)" type="image/png"
-                                srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_background_LG.png">
-
-                        <source media="(min-width: 768px)" type="image/webp"
-                                srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_background.webp">
-                        <source media="(min-width: 768px)" type="image/png"
-                                srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_background.png">
-
-                        <source type="image/webp"
-                                srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_background_MD.webp">
-                        <source type="image/png"
-                                srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_background_MD.png">
-                        <img class="VC_work_background" alt="Work background Visual Capture x De Brabant Makelaar">
-                    </picture>
-                    <div class="VC_work_content row m-0 p-0">
-                        <div class="col-lg-4 col-md-4 col-sm-6 m-0 p-0">
-                            <picture>
-                                <source type="image/webp"
-                                        srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_logo_MD.webp">
-                                <source type="image/png"
-                                        srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_logo_MD.png">
-                                <img class="VC_work_logo" alt="Partner logos">
-                            </picture>
-                            <p class="VC_work_description text-white">
-                                De Specialist in het duur- en voedzame alternatief van vlees.<br>
-                                Website & ontwerp op maat. Incl. Webshop
-                            </p>
-                        </div>
-                        <div class="work_picture_holder col-lg-8 col-md-8 col-sm-6 m-0 p-0">
-                            <picture>
-                                <source media="(min-width: 768px)" type="image/webp"
-                                        srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_work_LG.webp">
-                                <source media="(min-width: 768px)" type="image/png"
-                                        srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_work_LG.webp">
-
-                                <source type="image/webp"
-                                        srcset="assets/images/webproducts/websites/BUG/webp/VC_BUG_work_MD.webp">
-                                <source type="image/png"
-                                        srcset="assets/images/webproducts/websites/BUG/png/VC_BUG_work_MD.png">
-                                <img class="VC_work" alt="Work of Visual Capture">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
-                <div class="VC_carousel">
-                    <picture>
-                        <source media="(min-width: 1200px)" type="image/webp"
-                                srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_background_LG.webp">
-                        <source media="(min-width: 1200px)" type="image/png"
-                                srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_background_LG.png">
-
-                        <source media="(min-width: 768px)" type="image/webp"
-                                srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_background.webp">
-                        <source media="(min-width: 768px)" type="image/png"
-                                srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_background.png">
-
-                        <source type="image/webp"
-                                srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_background_MD.webp">
-                        <source type="image/png"
-                                srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_background_MD.png">
-                        <img class="VC_work_background" alt="Work background Visual Capture x De Brabant Makelaar">
-                    </picture>
-                    <div class="VC_work_content row m-0 p-0">
-                        <div class="col-lg-4 col-md-4 col-sm-6 m-0 p-0">
-                            <picture>
-                                <source type="image/webp"
-                                        srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_logo_MD.webp">
-                                <source type="image/png"
-                                        srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_logo_MD.png">
-                                <img class="VC_work_logo" alt="Partner logos" style="width: 5em">
-                            </picture>
-                            <p class="VC_work_description">
-                                Geniet van luxe en rust & “YES I DO” op een unieke historische & intieme locatie.
-                                Bed & Breakfast, gastenverblijven, evenementen & trouwlocaties
-
-                            </p>
-                        </div>
-                        <div class="work_picture_holder col-lg-8 col-md-8 col-sm-6 m-0 p-0">
-                            <picture>
-                                <source media="(min-width: 768px)" type="image/webp"
-                                        srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_work_LG.webp">
-                                <source media="(min-width: 768px)" type="image/png"
-                                        srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_work_LG.webp">
-
-                                <source type="image/webp"
-                                        srcset="assets/images/webproducts/websites/OWK/webp/VC_OWK_work_MD.webp">
-                                <source type="image/png"
-                                        srcset="assets/images/webproducts/websites/OWK/png/VC_OWK_work_MD.png">
-                                <img class="VC_work" alt="Work of Visual Capture">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
-                <div class="VC_carousel">
-                    <picture>
-                        <source media="(min-width: 1200px)" type="image/webp"
-                                srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_background_LG.webp">
-                        <source media="(min-width: 1200px)" type="image/png"
-                                srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_background_LG.png">
-
-                        <source media="(min-width: 768px)" type="image/webp"
-                                srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_background.webp">
-                        <source media="(min-width: 768px)" type="image/png"
-                                srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_background.png">
-
-                        <source type="image/webp"
-                                srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_background_MD.webp">
-                        <source type="image/png"
-                                srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_background_MD.png">
-                        <img class="VC_work_background" alt="Work background Visual Capture x De Brabant Makelaar">
-                    </picture>
-                    <div class="VC_work_content row m-0 p-0">
-                        <div class="col-lg-4 col-md-4 col-sm-6 m-0 p-0">
-                            <picture>
-                                <source type="image/webp"
-                                        srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_logo_MD.webp">
-                                <source type="image/png"
-                                        srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_logo_MD.png">
-                                <img class="VC_work_logo" alt="Partner logos">
-                            </picture>
-                            <p class="VC_work_description text-white">
-
-                                Een investeringsgroep gebaseerd in Eindhoven dat specialiseert in real estate.
-                                Web portfolio & ontwerp op maat.
-
-                            </p>
-                        </div>
-                        <div class="work_picture_holder col-lg-8 col-md-8 col-sm-6 m-0 p-0">
-                            <picture>
-                                <source media="(min-width: 768px)" type="image/webp"
-                                        srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_work_LG.webp">
-                                <source media="(min-width: 768px)" type="image/png"
-                                        srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_work_LG.webp">
-
-                                <source type="image/webp"
-                                        srcset="assets/images/webproducts/websites/TBC/webp/VC_TBC_work_MD.webp">
-                                <source type="image/png"
-                                        srcset="assets/images/webproducts/websites/TBC/png/VC_TBC_work_MD.png">
-                                <img class="VC_work" alt="Work of Visual Capture">
-                            </picture>
-                        </div>
-                    </div>
+                <div class="sub">
+                    Heb je een idee maar weet je nog niet hoeveel het kan kosten? Maak dan vrijblijvend gebruik van de
+                    kostencalculator.
                 </div>
             </div>
-            <div class="carousel--progress">
-                <div class="carousel--progress-bar"></div>
+            <div class="col-sm-12 col-md-4  p-0 position-relative">
+                <a href="#" class="callToAction">
+                    <div class="text">
+                        Kostencalculator
+                    </div>
+                    <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
+                         alt="call To Action, Pretty Arrow, Go to"/>
+                    <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg"
+                         alt="call To Action, Pretty Arrow, Go to"/>
+                </a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="spacer-15"></div>
 
-<div class="priceCalculator background-blue showOnMobile hideOnDesktop hideOnTablet">
-    <div class="row">
-        <div class="col-sm-12 col-md-8 p-0">
-            <div class="title">
-                Prijsinschatting
-            </div>
-            <div class="sub">
-                Heb je een idee maar weet je nog niet hoeveel het kan kosten? Maak dan vrijblijvend gebruik van de
-                kostencalculator.
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-4  p-0 position-relative">
-            <a href="#" class="callToAction">
-                <div class="text">
-                    Kostencalculator
-                </div>
-                <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
-                     alt="call To Action, Pretty Arrow, Go to"/>
-                <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg"
-                     alt="call To Action, Pretty Arrow, Go to"/>
-            </a>
-        </div>
-    </div>
-</div>
-
-
-<div class="circle_blur">
-    <div class="circle_blur_gold_footer"></div>
-</div>
-
-<div class="circle_blur">
-    <div class="circle_blur_blue_footer"></div>
-</div>
 <div class="footer">
+    <div class="circle_blur_gold_footer"></div>
+    <div class="circle_blur_blue_footer"></div>
+
     <div class="footer-card container">
         <div class="row m-0">
             <div class="col-4 p-0">
@@ -550,8 +653,80 @@
 </html>
 
 
+<!-- Swiper JS -->
+<script src="assets/js/swiper.min.js"></script>
+<script>
+    new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        freeMode: {
+            enabled: !1,
+        },
+        speed: 200,
+        loop: !0,
+        grabCursor: !0,
+        watchSlidesProgress: !0,
+        mousewheel: {
+            forceToAxis: !0,
+        },
+        breakpoints: {
+            768: {
+                slidesOffsetBefore: 20,
+                speed: 200,
+                slidesPerView: 2,
+                spaceBetween: 20,
+                freeMode: {
+                    enabled: !0,
+                    sticky: !0,
+                    minimumVelocity: 0.001,
+                },
+            },
+            992: {
+                slidesOffsetBefore: -150,
+                slidesPerView: 3,
+                spaceBetween: 20,
+                freeMode: {
+                    enabled: !0,
+                    sticky: !0,
+                    minimumVelocity: 0.001,
+                },
+            },
+            1200: {
+                slidesOffsetBefore: -218,
+                speed: 300,
+                slidesPerView: 3,
+                spaceBetween: 20,
+                freeMode: {
+                    enabled: !0,
+                    sticky: !0,
+                    minimumVelocity: 0.001,
+                },
+            },
+            1400: {
+                slidesOffsetBefore: -168,
+                speed: 300,
+                slidesPerView: 4,
+                spaceBetween: 20,
+                freeMode: {
+                    enabled: !0,
+                    sticky: !0,
+                    minimumVelocity: 0.001,
+                },
+            },
+            1600: {
+                speed: 300,
+                slidesPerView: 5,
+                spaceBetween: 20,
+                freeMode: {
+                    enabled: !0,
+                    sticky: !0,
+                    minimumVelocity: 0.001,
+                },
+            },
+        },
+    })
+</script>
+
 <!--Carousel-->
 <link rel="stylesheet" href="assets/style/carousel.css">
 <script src="assets/js/carousel.js"></script>
-
-

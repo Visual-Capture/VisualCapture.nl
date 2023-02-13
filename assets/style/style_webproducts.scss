@@ -99,6 +99,74 @@ h4 {
   }
 }
 
+.side-fades:before {
+  left: 0;
+  background: linear-gradient(90deg,var(--white) 20%,transparent 100%);
+}
+.side-fades:after {
+  right: 0;
+  background: linear-gradient(90deg, transparent 0%, var(--white) 80%);
+}
+
+@media screen and (min-width: 1200px) {
+  .side-fades:before, .side-fades:after {
+    width: 6.25rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .side-fades:before, .side-fades:after {
+    content: "";
+  }
+}
+
+.side-fades:before, .side-fades:after {
+  position: absolute;
+  top: 0;
+  width: 3.75rem;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.work_deliverables {
+  text-align: center;
+
+  .main {
+    font: 3.4em Fancy-Regular, sans-serif;
+  }
+
+  .sub {
+    margin-top: .1em;
+    font: 1.2em ExtraLight, sans-serif;
+    color: var(--gray);
+    padding-bottom: 2em;
+  }
+
+
+  .swiper-slide {
+    display: block;
+    text-align: center;
+    background-color: var(--extrawhite);
+    border-radius: 10px;
+    padding: 2.5em .5em 2em .5em;
+    height: auto;
+    Width: 369px;
+
+    .main {
+      padding-bottom: 1em;
+      font: 1.4em Fancy-Regular, sans-serif;
+    }
+
+    .sub {
+      margin-top: .1em;
+      font: 1em ExtraLight, sans-serif;
+      color: var(--gray);
+      padding-bottom: 0;
+    }
+  }
+}
+
 .VC_work_container {
 
   .VC_partners {
@@ -156,80 +224,80 @@ h4 {
   }
 }
 
-
-.circle_blur {
+.Visual_Capture_portfolio {
   overflow-x: hidden;
   overflow-y: hidden;
+  position: relative;
+}
 
-  .circle_blur_ {
-    &gold {
-      background-color: var(--yellow);
-      filter: blur(150px);
-      position: absolute;
-      left: -25%;
-      bottom: -20%;
-      opacity: .8;
-      z-index: -1;
-      width: 55%;
-      height: 35%;
-      aspect-ratio: 2;
-      border-radius: 1000vmax 1000vmax 0 0;
-    }
+.circle_blur_ {
+  &gold {
+    background-color: var(--yellow);
+    filter: blur(150px);
+    position: absolute;
+    left: -25%;
+    bottom: -20%;
+    opacity: .8;
+    z-index: -1;
+    width: 55%;
+    height: auto;
+    aspect-ratio: 2;
+    border-radius: 1000vmax 1000vmax 0 0;
+  }
 
-    &blue {
-      background-color: var(--lightblue);
-      filter: blur(150px);
-      position: absolute;
-      right: -25%;
-      opacity: .5;
-      z-index: -1;
-      width: 55%;
-      height: 55%;
-      aspect-ratio: 2;
-      border-radius: 1000vmax 1000vmax 0 0;
-    }
+  &blue {
+    background-color: var(--lightblue);
+    filter: blur(150px);
+    position: absolute;
+    right: -25%;
+    opacity: .5;
+    z-index: -1;
+    width: 55%;
+    height: auto;
+    aspect-ratio: 2;
+    border-radius: 1000vmax 1000vmax 0 0;
+  }
 
-    &green {
-      background-color: var(--green);
-      filter: blur(150px);
-      position: absolute;
-      right: -30%;
-      opacity: .5;
-      z-index: -1;
-      width: 60%;
-      height: 60%;
-      aspect-ratio: 2;
-      border-radius: 1000vmax 1000vmax 0 0;
-    }
-
-
-    &gold_footer {
-      background-color: var(--yellow);
-      filter: blur(150px);
-      position: absolute;
-      left: -25%;
-      opacity: .8;
-      z-index: -1;
-      width: 55%;
-      height: 35%;
-      aspect-ratio: 2;
-      border-radius: 1000vmax 1000vmax 0 0;
-    }
+  &green {
+    background-color: var(--green);
+    filter: blur(150px);
+    position: absolute;
+    right: -30%;
+    opacity: .5;
+    z-index: -1;
+    width: 60%;
+    height: auto;
+    aspect-ratio: 2;
+    border-radius: 1000vmax 1000vmax 0 0;
+  }
 
 
-    &blue_footer {
-      background-color: var(--lightblue);
-      filter: blur(150px);
-      position: absolute;
-      right: 20%;
-      opacity: .5;
-      z-index: -1;
-      margin-top: 6em;
-      width: 40%;
-      height: 25%;
-      aspect-ratio: 2;
-      border-radius: 1000vmax 1000vmax 0 0;
-    }
+  &gold_footer {
+    background-color: var(--yellow);
+    filter: blur(150px);
+    position: absolute;
+    left: -25%;
+    opacity: .6;
+    z-index: -1;
+    width: 55%;
+    height: auto;
+    aspect-ratio: 2;
+    border-radius: 1000vmax 1000vmax 0 0;
+  }
+
+
+  &blue_footer {
+    background-color: var(--lightblue);
+    filter: blur(150px);
+    position: absolute;
+    right: 20%;
+    opacity: .6;
+    z-index: -1;
+    margin-top: 6em;
+    width: 40%;
+    height: auto;
+    aspect-ratio: 2;
+    border-radius: 1000vmax 1000vmax 0 0;
   }
 }
 

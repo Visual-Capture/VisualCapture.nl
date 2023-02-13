@@ -268,6 +268,9 @@ html {
     display: block !important;
   }
 
+  .footer {
+    padding-top: 4em !important;
+  }
   .footer .footer-card {
     padding: 1.5em;
   }
@@ -643,6 +646,11 @@ html {
   }
 }
 /*Background lines end*/
+.footer {
+  padding-top: 10em;
+  overflow-y: hidden;
+  position: relative;
+}
 .footer .VC_logo {
   margin-top: 1em;
   font: 28px Bold, sans-serif;
@@ -668,7 +676,7 @@ html {
 .footer .footer_terms {
   opacity: 50%;
   font: 0.8em ExtraLight, sans-serif;
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
 .footer .footer_terms .copyright {
   text-align: right;

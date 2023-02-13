@@ -264,6 +264,7 @@ h4 {
   position: relative;
   display: inline-block;
   width: 80vw;
+  max-width: 48em;
   margin: 3em 0.5em;
 }
 .VC_carousel:first-child {
@@ -285,12 +286,12 @@ h4 {
 }
 .VC_carousel .VC_work_content .VC_work_logo {
   width: 8em;
-  margin: 1em;
+  margin: 2em 1em 1em 1.5em;
 }
 .VC_carousel .VC_work_content .VC_work_description {
   position: absolute;
   width: auto;
-  margin: auto 1em 1em 1em;
+  margin: auto 1em 1em 1.5em;
   font: 0.8em Regular, sans-serif;
   white-space: normal;
   bottom: 2em;

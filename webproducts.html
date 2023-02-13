@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/style/style_VC.css">
     <link rel="stylesheet" href="assets/style/style_webproducts.css">
     <link rel="stylesheet" href="assets/style/swiper-bundle.min.css">
-<!--    <link rel="stylesheet" href="assets/style/swiper.css">-->
+    <!--    <link rel="stylesheet" href="assets/style/swiper.css">-->
 </head>
 <body>
 
@@ -546,32 +546,8 @@
     </div>
 
     <div class="spacer-15"></div>
-    <div class="priceCalculator background-blue showOnMobile hideOnDesktop hideOnTablet">
-        <div class="row">
-            <div class="col-sm-12 col-md-8 p-0">
-                <div class="title">
-                    Prijsinschatting
-                </div>
-                <div class="sub">
-                    Heb je een idee maar weet je nog niet hoeveel het kan kosten? Maak dan vrijblijvend gebruik van de
-                    kostencalculator.
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4  p-0 position-relative">
-                <a href="#" class="callToAction">
-                    <div class="text">
-                        Kostencalculator
-                    </div>
-                    <img class="VC_arrow" src="assets/images/general/VC_arrow_white.svg"
-                         alt="call To Action, Pretty Arrow, Go to"/>
-                    <img class="VC_arrow_gold" style="display: none" src="assets/images/general/VC-arrow.svg"
-                         alt="call To Action, Pretty Arrow, Go to"/>
-                </a>
-            </div>
-        </div>
-    </div>
 </div>
-
+<div class="spacer-15"></div>
 
 <div class="footer">
     <div class="circle_blur_gold_footer"></div>
@@ -579,7 +555,7 @@
 
     <div class="footer-card container">
         <div class="row m-0">
-            <div class="col-4 p-0">
+            <div class="col-lg-4 col-md-12 p-0">
                 <a href="index.html">
                     <picture>
                         <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoBlack.webp">
@@ -594,18 +570,20 @@
                     </picture>
                 </a>
             </div>
-            <div class="col-8 p-0">
+            <div class="col-lg-8 col-md-12 p-0">
                 <div class="row">
-                    <div class="row col-6 m-0 p-0 pb-5">
+                    <div class="row col-lg-6 col-md-12 m-0 p-0 pb-5">
                         <div class="col-12"><h2 class="title">Contact</h2></div>
-                        <div class="col-12"><p class="footer_desc">+31 (6) 31521355</p></div>
-                        <div class="col-12"><p class="footer_desc">info@visualcapture.nl</p></div>
+                        <div class="col-12"><a class="footer_desc footer_link" href="tel:+31 (6) 31521355">+31 (6)
+                            31521355</a></div>
+                        <div class="col-12"><a class="footer_desc footer_link" href="mailto:info@visualcapture.nl">info@visualcapture.nl</a>
+                        </div>
                         <div class="col-12"></div>
                         <div class="col-12"></div>
                     </div>
 
 
-                    <div class="row col-6 m-0 p-0 m-0 pb-5">
+                    <div class="row col-lg-6 col-md-12 m-0 p-0 m-0 pb-5">
                         <div class="col-12"><h2 class="title">Diensten</h2></div>
                         <div class="col-12"><p class="footer_desc">Web design</p></div>
                         <div class="col-12"><p class="footer_desc">Web development</p></div>
@@ -614,16 +592,19 @@
                     </div>
 
 
-                    <div class="row col-6 m-0 p-0 pb-5 m-0">
+                    <div class="row col-lg-6 col-md-12 m-0 p-0 pb-5 m-0">
                         <div class="col-12"><h2 class="title">Bezoeken</h2></div>
-                        <div class="col-12"><p class="footer_desc">Doormanlaan 54</p></div>
-                        <div class="col-12"><p class="footer_desc">5694 EC, Son en Breugel</p></div>
+                        <div class="col-12"><a class="footer_desc footer_link"
+                                               href="https://goo.gl/maps/fqKXYWsWytSThpPr6" target="_blank">Doormanlaan
+                            54<br>5694 EC, Son en Breugel</a></div>
                     </div>
 
 
-                    <div class="row col-6 m-0 p-0 pb-5">
+                    <div class="row col-lg-6 col-md-12 m-0 p-0 pb-5">
                         <div class="col-12"><h2 class="title">Bedrijf</h2></div>
-                        <div class="col-12"><p class="footer_desc">KVK: 82854491</p></div>
+                        <div class="col-12"><a class="footer_desc footer_link"
+                                               href="https://www.kvk.nl/zoeken/?source=all&q=Visual%20Capture&start=0&site=kvk2014"
+                                               target="_blank">KVK: 82854491</a></div>
                         <div class="col-12">
                             <p class="footer_desc">BTW:
                                 <bold>NL003741828B81</bold>
@@ -632,15 +613,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 footer_terms">
+            <div class="col-12 p-0 footer_terms">
                 <div class="row m-0 p-0">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 p-0">
                         Voorwaarden
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 p-0">
                         Privacy
                     </div>
-                    <div class="copyright col-6 copyright">
+                    <div class="copyright col-lg-6 col-md-12 p-0">
                         @2023 Visual Capture
                     </div>
                 </div>
@@ -657,7 +638,8 @@
 <script src="assets/js/swiper.min.js"></script>
 <script>
     new Swiper(".mySwiper", {
-        slidesPerView: 1,
+        slidesOffsetBefore: 10,
+        slidesPerView: 1.05,
         spaceBetween: 10,
         freeMode: {
             enabled: !1,

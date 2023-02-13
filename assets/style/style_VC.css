@@ -268,6 +268,30 @@ html {
     display: block !important;
   }
 
+  .footer .footer-card {
+    padding: 1.5em;
+  }
+  .footer .VC_logo {
+    display: none;
+  }
+  .footer .VC_logo_mobile {
+    display: block !important;
+    margin: 0 0 2em 0;
+    font: 28px Bold, sans-serif;
+    text-decoration: none;
+    color: var(--dark);
+    position: relative;
+    left: auto;
+    transform: none;
+    width: 75%;
+    text-align: center;
+    z-index: 3;
+  }
+  .footer .copyright {
+    margin-top: 1em;
+    text-align: left !important;
+  }
+
   picture {
     width: 100%;
     overflow: hidden;
@@ -632,23 +656,14 @@ html {
   z-index: 1;
   cursor: pointer;
 }
-.footer .VC_logo_mobile {
-  display: block !important;
-  margin-top: 0.5em;
-  font: 28px Bold, sans-serif;
-  text-decoration: none;
-  color: var(--dark);
-  position: absolute;
-  left: auto;
-  transform: none;
-  width: 75%;
-  text-align: center;
-  z-index: 3;
-}
 .footer .footer_desc {
+  color: var(--dark);
   font: 0.9em Regular, sans-serif;
   opacity: 50%;
   line-height: 1.4em;
+}
+.footer .footer_desc.footer_link:hover {
+  text-decoration: underline !important;
 }
 .footer .footer_terms {
   opacity: 50%;

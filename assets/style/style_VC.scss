@@ -10,10 +10,11 @@
   --dark: #121313;
 }
 
-.background-green{
+.background-green {
   background-color: var(--green);
 }
-.background-blue{
+
+.background-blue {
   background-color: var(--blue);
 }
 
@@ -55,10 +56,11 @@ html {
   height: 100%;
 }
 
-.link{
+.link {
   color: var(--yellow);
   text-decoration: underline;
-  &:hover{
+
+  &:hover {
     color: var(--white);
     text-decoration: none;
 
@@ -105,7 +107,7 @@ html {
   }
 }
 
-.priceCalculator{
+.priceCalculator {
   padding: 3em;
   color: var(--white);
   padding-top: 2em !important;
@@ -145,7 +147,8 @@ html {
       .VC_arrow {
         display: none;
       }
-      .VC_arrow_gold{
+
+      .VC_arrow_gold {
         width: 6.5em;
         display: inline-block !important;
         margin-left: .5em;
@@ -161,7 +164,7 @@ html {
   width: 40%;
   text-align: left;
   color: var(--white);
-  text-shadow: 5px 5px 20px rgba(1,1,1, 0.25);
+  text-shadow: 5px 5px 20px rgba(1, 1, 1, 0.25);
 
   .title {
     font: 3.8em Fancy-Semibold, sans-serif;
@@ -179,20 +182,20 @@ html {
 
 //Ultrawide
 @media screen and (min-width: 1501px) {
-  .hideOnDesktop{
+  .hideOnDesktop {
     display: none !important;
   }
-  .showOnDesktop{
+  .showOnDesktop {
     display: block !important;
   }
 }
 
 //desktop
 @media screen and (max-width: 1500px) {
-  .hideOnDesktop{
+  .hideOnDesktop {
     display: none !important;
   }
-  .showOnDesktop{
+  .showOnDesktop {
     display: block !important;
   }
 
@@ -218,10 +221,10 @@ html {
 
 //tablet
 @media screen and (max-width: 1200px) {
-  .showOnTablet{
+  .showOnTablet {
     display: block !important;
   }
-  .hideOnTablet{
+  .hideOnTablet {
     display: none !important;
   }
   .welcomeContainer {
@@ -244,10 +247,10 @@ html {
 }
 
 @media screen and (max-width: 1020px) {
-  .showOnTablet{
+  .showOnTablet {
     display: block !important;
   }
-  .hideOnTablet{
+  .hideOnTablet {
     display: none !important;
   }
   .welcomeContainer {
@@ -290,14 +293,42 @@ html {
 
 //mobile
 @media screen and (max-width: 768px) {
-  .hideOnMobile{
+  .hideOnMobile {
     display: none !important;
   }
 
-  .showOnMobile{
+  .showOnMobile {
     display: block !important;
   }
 
+
+  .footer {
+    .footer-card{
+      padding: 1.5em;
+    }
+    .VC_logo{
+      display: none;
+    }
+
+    .VC_logo_mobile {
+      display: block !important;
+      margin: 0 0 2em 0;
+      font: 28px Bold, sans-serif;
+      text-decoration: none;
+      color: var(--dark);
+      position: relative;
+      left: auto;
+      transform: none;
+      width: 75%;
+      text-align: center;
+      z-index: 3;
+    }
+
+    .copyright {
+      margin-top: 1em;
+      text-align: left!important;
+    }
+  }
 
   picture {
     width: 100%;
@@ -378,6 +409,7 @@ html {
     cursor: pointer;
     display: block !important;
     text-align: center;
+
     .text {
       font: 1em Regular, sans-serif;
       display: inline-block;
@@ -388,6 +420,7 @@ html {
       display: inline-block;
       margin-left: .5em;
     }
+
     &:hover {
       background-color: var(--white);
 
@@ -398,7 +431,8 @@ html {
       .VC_arrow {
         display: none;
       }
-      .VC_arrow_gold{
+
+      .VC_arrow_gold {
         width: 5em;
         display: inline-block !important;
         margin-left: .5em;
@@ -407,7 +441,7 @@ html {
   }
 
 
-  .priceCalculator{
+  .priceCalculator {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
     top: initial;
@@ -449,7 +483,8 @@ html {
         .VC_arrow {
           display: none;
         }
-        .VC_arrow_gold{
+
+        .VC_arrow_gold {
           width: 5em;
           display: inline-block !important;
           margin-left: .5em;
@@ -482,6 +517,7 @@ html {
     cursor: pointer;
     display: block !important;
     text-align: center;
+
     .text {
       font: .8em Regular, sans-serif;
       display: inline-block;
@@ -492,6 +528,7 @@ html {
       display: inline-block;
       margin-left: .5em;
     }
+
     &:hover {
       background-color: var(--white);
 
@@ -503,14 +540,15 @@ html {
       .VC_arrow {
         display: none;
       }
-      .VC_arrow_gold{
+
+      .VC_arrow_gold {
         width: 5em;
         display: inline-block !important;
         margin-left: .5em;
       }
     }
   }
-  .priceCalculator{
+  .priceCalculator {
     padding: 2em;
     padding-top: 2em !important;
     padding-bottom: 2em !important;
@@ -553,7 +591,8 @@ html {
         .VC_arrow {
           display: none;
         }
-        .VC_arrow_gold{
+
+        .VC_arrow_gold {
           width: 5em;
           display: inline-block !important;
           margin-left: .5em;
@@ -578,7 +617,7 @@ html {
       font: .8em Regular, sans-serif;
     }
   }
-  .priceCalculator{
+  .priceCalculator {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
     top: initial;
@@ -620,7 +659,8 @@ html {
         .VC_arrow {
           display: none;
         }
-        .VC_arrow_gold{
+
+        .VC_arrow_gold {
           width: 5em;
           display: inline-block !important;
           margin-left: .5em;
@@ -697,48 +737,39 @@ html {
 /*Background lines end*/
 
 
-
-.footer{
- .VC_logo{
-   margin-top: 1em;
-   font: 28px Bold, sans-serif;
-   text-decoration: none;
-   color: var(--dark);
-   position: relative;
-   left: auto;
-   transform: none;
-   width: 6.942em;
-   text-align: left;
-   z-index: 1;
-   cursor: pointer;
- }
-
-  .VC_logo_mobile{
-    display: block !important;
-    margin-top: 0.5em;
+.footer {
+  .VC_logo {
+    margin-top: 1em;
     font: 28px Bold, sans-serif;
     text-decoration: none;
     color: var(--dark);
-    position: absolute;
+    position: relative;
     left: auto;
     transform: none;
-    width: 75%;
-    text-align: center;
-    z-index: 3;
+    width: 6.942em;
+    text-align: left;
+    z-index: 1;
+    cursor: pointer;
   }
 
-  .footer_desc{
+
+  .footer_desc {
+    color: var(--dark);
     font: 0.9em Regular, sans-serif;
     opacity: 50%;
     line-height: 1.4em;
+
+    &.footer_link:hover {
+      text-decoration: underline !important;
+    }
   }
 
-  .footer_terms{
+  .footer_terms {
     opacity: 50%;
     font: 0.8em ExtraLight, sans-serif;
     margin-bottom: 2em;
 
-    .copyright{
+    .copyright {
       text-align: right;
     }
   }

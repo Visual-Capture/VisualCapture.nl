@@ -11,6 +11,8 @@ body {
   color: var(--white);
   background-color: var(--dark);
   margin: 0;
+  width: 100%;
+  position: relative;
 }
 
 .cursor-pointer {
@@ -29,6 +31,18 @@ body {
 /*desktop*/
 .portfolio-container {
   padding: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .portfolio-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+  }
+}
+.portfolio-intro-content {
+  padding: 0 0 0 15px;
 }
 
 .portrait {
@@ -66,12 +80,18 @@ body {
   font: 1.3em ExtraLight, sans-serif;
 }
 
+.Visual_Capture_portfolio {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
 .circle_blur_gold {
   background-color: var(--yellow);
   filter: blur(150px);
   position: absolute;
   left: -25%;
-  opacity: 0.5;
+  opacity: 0.45;
   z-index: -1;
   width: 55%;
   height: 55%;
@@ -95,11 +115,12 @@ body {
   top: -20%;
 }
 .circle_blur_green {
-  background-color: var(--green);
+  background-color: var(--lightgreen);
   filter: blur(150px);
   position: absolute;
   right: -30%;
-  opacity: 0.5;
+  top: 12em;
+  opacity: 0.3;
   z-index: -1;
   width: 60%;
   height: 60%;
@@ -121,13 +142,27 @@ body {
 
 @media screen and (min-width: 1900px) {
   .subTitle .main {
-    font: 4em Fancy-Semibold, sans-serif;
+    font: 2.8em Fancy-Semibold, sans-serif;
   }
   .subTitle .description {
-    font: 2em ExtraLight, sans-serif;
+    font: 1.4em ExtraLight, sans-serif;
   }
 }
 @media screen and (max-width: 996px) {
+  .portfolio-intro .title {
+    padding: 1em 1em;
+    top: 0;
+    position: absolute;
+    mix-blend-mode: difference;
+  }
+  .portfolio-intro .title .main {
+    font: 3.2em Fancy-Semibold, sans-serif;
+  }
+  .portfolio-intro .title .sub {
+    padding-top: 0.6em;
+    font: 1.4em ExtraLight, sans-serif;
+  }
+
   .subTitle .main {
     font: 2em Fancy-Semibold, sans-serif;
   }
@@ -136,6 +171,10 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .portfolio-intro-content {
+    padding: 0;
+  }
+
   .portfolio-intro .title {
     padding: 1.5em 0.5em;
     top: 0;

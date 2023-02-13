@@ -148,7 +148,7 @@ h4 {
   border-radius: 1000vmax 1000vmax 0 0;
 }
 .circle_blur .circle_blur_blue {
-  background-color: var(--blue);
+  background-color: var(--lightblue);
   filter: blur(150px);
   position: absolute;
   right: -25%;
@@ -168,6 +168,31 @@ h4 {
   z-index: -1;
   width: 60%;
   height: 60%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur .circle_blur_gold_footer {
+  background-color: var(--yellow);
+  filter: blur(150px);
+  position: absolute;
+  left: -25%;
+  opacity: 0.8;
+  z-index: -1;
+  width: 55%;
+  height: 35%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur .circle_blur_blue_footer {
+  background-color: var(--lightblue);
+  filter: blur(150px);
+  position: absolute;
+  right: 20%;
+  opacity: 0.5;
+  z-index: -1;
+  margin-top: 6em;
+  width: 40%;
+  height: 25%;
   aspect-ratio: 2;
   border-radius: 1000vmax 1000vmax 0 0;
 }

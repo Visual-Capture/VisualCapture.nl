@@ -1,6 +1,8 @@
 :root {
   --green: #00382F;
+  --lightgreen: #24786A;
   --blue: #14274A;
+  --lightblue: #345590;
   --yellow: #D0B866;
   --white: #F5F5F7;
   --extrawhite: #fff;
@@ -21,7 +23,7 @@
 }
 
 .spacer-15 {
-  padding-top: 15%;
+  padding-top: 3em;
 }
 
 .spacer-25 {
@@ -50,6 +52,16 @@ a:hover, a:focus {
 
 html {
   height: 100%;
+}
+
+.link{
+  color: var(--yellow);
+  text-decoration: underline;
+  &:hover{
+    color: var(--white);
+    text-decoration: none;
+
+  }
 }
 
 /*menu-menu*/
@@ -682,3 +694,57 @@ html {
 }
 
 /*Background lines end*/
+
+
+
+.footer{
+ .VC_logo{
+   margin-top: 1em;
+   font: 28px Bold, sans-serif;
+   text-decoration: none;
+   color: var(--dark);
+   position: relative;
+   left: auto;
+   transform: none;
+   width: 6.942em;
+   text-align: left;
+   z-index: 1;
+   cursor: pointer;
+ }
+
+  .VC_logo_mobile{
+    display: block !important;
+    margin-top: 0.5em;
+    font: 28px Bold, sans-serif;
+    text-decoration: none;
+    color: var(--dark);
+    position: absolute;
+    left: auto;
+    transform: none;
+    width: 75%;
+    text-align: center;
+    z-index: 3;
+  }
+
+  .footer_desc{
+    font: 0.9em Regular, sans-serif;
+    opacity: 50%;
+    line-height: 1.4em;
+  }
+
+  .footer_terms{
+    opacity: 50%;
+    font: 0.8em ExtraLight, sans-serif;
+    margin-bottom: 2em;
+
+    .copyright{
+      text-align: right;
+    }
+  }
+
+  .title {
+    font: 1.8em Fancy-Semibold, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+}

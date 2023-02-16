@@ -149,6 +149,9 @@ h4 {
   padding-bottom: 0;
 }
 
+.VC_work_container {
+  padding-top: 5%;
+}
 .VC_work_container .VC_partners {
   position: relative;
 }

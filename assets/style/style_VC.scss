@@ -25,7 +25,7 @@
 }
 
 .spacer-15 {
-  padding-top: 3em;
+  padding-top: 15%;
 }
 
 .spacer-25 {
@@ -738,7 +738,6 @@ html {
 
 /*Background lines end*/
 
-
 .footer {
   padding-top: 10em;
   overflow-y: hidden;
@@ -784,5 +783,12 @@ html {
     font: 1.8em Fancy-Semibold, sans-serif;
     margin: 0;
     padding: 0;
+  }
+
+  .contextCenter {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    height: 100%;
   }
 }

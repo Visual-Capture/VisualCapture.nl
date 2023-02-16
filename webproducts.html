@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebProducten | Visual Capture</title>
-    <link rel="icon" href="assets/images/general/favicon.jpg" type="image" sizes=32x32">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/general/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/general/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/general/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/general/icons/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/general/icons/safari-pinned-tab.svg" color="#00382f">
+    <meta name="msapplication-TileColor" content="#00382f">
+    <meta name="theme-color" content="#F5F5F7">
+
+
     <link rel="stylesheet" href="assets/style/fonts.css">
     <link rel="stylesheet" href="assets/style/bootstrap.css">
     <link rel="stylesheet" href="assets/style/style_VC.css">
     <link rel="stylesheet" href="assets/style/style_webproducts.css">
     <link rel="stylesheet" href="assets/style/swiper-bundle.min.css">
-    <!--    <link rel="stylesheet" href="assets/style/swiper.css">-->
 </head>
 <body>
 
@@ -29,13 +38,13 @@
 
     <a href="index.html">
         <picture>
-            <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoWhite.webp">
-            <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoWhite.png">
+            <source type="image/webp" srcset="assets/images/general/VC_logo/webp/VisualCaptureLogoWhite.webp">
+            <source type="image/png" srcset="assets/images/general/VC_logo/png/VisualCaptureLogoWhite.png">
             <img class="VC_logo" alt="Logo White Visual Capture">
         </picture>
         <picture>
-            <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoMini.webp">
-            <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoMini.png">
+            <source type="image/webp" srcset="assets/images/general/VC_logo/webp/VisualCaptureLogoMini.webp">
+            <source type="image/png" srcset="assets/images/general/VC_logo/png/VisualCaptureLogoMini.png">
             <img class="VC_logo_mini" alt="Logo White Visual Capture">
         </picture>
     </a>
@@ -554,14 +563,17 @@
             <div class="col-lg-4 col-md-12 p-0">
                 <a href="index.html">
                     <picture>
-                        <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoBlack.webp">
-                        <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoBlack.png">
+                        <source type="image/webp"
+                                srcset="assets/images/general/VC_logo/webp/VisualCaptureLogoBlack.webp">
+                        <source type="image/png" srcset="assets/images/general/VC_logo/png/VisualCaptureLogoBlack.png">
                         <img class="VC_logo" alt="Logo Visual Capture">
                     </picture>
 
                     <picture>
-                        <source type="image/webp" srcset="assets/images/general/webp/VisualCaptureLogoBlackSmall.webp">
-                        <source type="image/png" srcset="assets/images/general/png/VisualCaptureLogoBlackSmall.png">
+                        <source type="image/webp"
+                                srcset="assets/images/general/VC_logo/webp/VisualCaptureLogoBlackSmall.webp">
+                        <source type="image/png"
+                                srcset="assets/images/general/VC_logo/png/VisualCaptureLogoBlackSmall.png">
                         <img class="VC_logo_mobile" alt="Logo White Visual Capture" style="display: none">
                     </picture>
                 </a>
@@ -574,7 +586,45 @@
                             31521355</a></div>
                         <div class="col-12"><a class="footer_desc footer_link" href="mailto:info@visualcapture.nl">info@visualcapture.nl</a>
                         </div>
-                        <div class="col-12"></div>
+                        <div class="col-12">
+                            <div class="socialIcons contextCenter">
+                                <a id="linkedin" rel="noopener" class="mr-2 mt-2 socialIcon"
+                                   href="https://www.linkedin.com/company/visualcapture/" target="_blank">
+                                    <picture>
+                                        <source type="image/webp" srcset="assets/images/general/social/webp/linkedin.webp">
+                                        <source type="image/png" srcset="assets/images/general/social/png/linkedin.png">
+                                        <img alt="" width="44">
+                                    </picture>
+                                </a>
+
+                                <a id="instagram" class="m-2 socialIcon"
+                                   href="https://www.instagram.com/vincent.maximus/" target="_blank">
+                                    <picture>
+                                        <source type="image/webp" srcset="assets/images/general/social/webp/instagram.webp">
+                                        <source type="image/png" srcset="assets/images/general/social/png/instagram.png">
+                                        <img alt="" width="45">
+                                    </picture>
+                                </a>
+
+                                <a id="whatsapp" rel="noopener" class="m-2 socialIcon"
+                                   href="https://wa.me/310631521355?text=Hi%20Vincent" target="_blank">
+                                    <picture>
+                                        <source type="image/webp" srcset="assets/images/general/social/webp/whatsapp.webp">
+                                        <source type="image/png" srcset="assets/images/general/social/png/whatsapp.png">
+                                        <img alt="" width="45">
+                                    </picture>
+                                </a>
+
+                                <a id="mail" rel="noopener" class="ml-2 mt-2 socialIcon" href="mailto:vjp.maximus@gmail.com"
+                                   target="_blank">
+                                    <picture>
+                                        <source type="image/webp" srcset="assets/images/general/social/webp/mail.webp">
+                                        <source type="image/png" srcset="assets/images/general/social/png/mail.png">
+                                        <img alt="" width="48">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
                         <div class="col-12"></div>
                     </div>
 

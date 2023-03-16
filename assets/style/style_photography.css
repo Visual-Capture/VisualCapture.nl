@@ -102,13 +102,11 @@ body {
   background-color: var(--blue);
   filter: blur(150px);
   position: absolute;
-  right: -25%;
   opacity: 0.5;
   z-index: -1;
   width: 55%;
   aspect-ratio: 2;
   border-radius: 1000vmax 1000vmax 0 0;
-  position: absolute;
   width: 50em;
   z-index: 0;
   right: -35%;
@@ -124,6 +122,44 @@ body {
   z-index: -1;
   width: 60%;
   height: 60%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_green {
+  background-color: var(--green);
+  filter: blur(150px);
+  position: absolute;
+  right: -30%;
+  opacity: 0.5;
+  z-index: -1;
+  width: 60%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_gold_footer {
+  background-color: var(--yellow);
+  filter: blur(150px);
+  position: absolute;
+  left: -25%;
+  opacity: 0.6;
+  bottom: -6em;
+  z-index: -1;
+  width: 55%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_blue_footer {
+  background-color: var(--lightblue);
+  filter: blur(150px);
+  position: absolute;
+  right: 20%;
+  opacity: 0.6;
+  z-index: -1;
+  margin-top: 6em;
+  width: 40%;
+  height: auto;
   aspect-ratio: 2;
   border-radius: 1000vmax 1000vmax 0 0;
 }
@@ -200,6 +236,12 @@ body {
   .subTitle .description {
     font: 1em ExtraLight, sans-serif;
   }
+}
+.footer .VC_logo {
+  color: var(--white);
+}
+.footer .footer_desc {
+  color: var(--white);
 }
 
 /*# sourceMappingURL=style_photography.css.map */

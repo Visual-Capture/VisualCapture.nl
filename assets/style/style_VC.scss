@@ -24,6 +24,9 @@
   padding-top: 5%;
 }
 
+.spacer-10 {
+  padding-top: 10%;
+}
 .spacer-15 {
   padding-top: 15%;
 }
@@ -739,7 +742,7 @@ html {
 /*Background lines end*/
 
 .footer {
-  padding-top: 10em;
+  padding-top: 13em;
   overflow-y: hidden;
   position: relative;
 
@@ -791,4 +794,9 @@ html {
     align-items: start;
     height: 100%;
   }
+  .socialIcon:hover{
+    opacity: .75;
+  }
 }
+
+

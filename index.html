@@ -367,30 +367,25 @@
 </html>
 
 <script>
-    // document.body.style.overflow = "hidden";
     disable();
     setTimeout(() => {
         systemStart();
-        // }, 2000);
-    }, 10);
-
+    }, 2000);
+    // }, 10);
 
     function systemStart() {
         document.getElementById("WebProducts").classList.add("show");
         document.getElementById("Photography").classList.add("show");
 
         document.getElementById("intro-loader").style.display = "none",
-            // document.body.style.overflow = "";
             enable();
         move();
     }
 
     function disable() {
-// To get the scroll position of current webpage
         TopScroll = window.pageYOffset || document.documentElement.scrollTop;
         LeftScroll = window.pageXOffset || document.documentElement.scrollLeft,
 
-// if scroll happens, set it to the previous value
             window.onscroll = function () {
                 window.scrollTo(LeftScroll, TopScroll);
             };

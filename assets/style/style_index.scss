@@ -1,8 +1,9 @@
 html {
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 body{
-  overflow-y: hidden !important;
+  position: relative;
+  width: 100%;
 }
 .hidden {
   opacity: 0;
@@ -88,7 +89,7 @@ body{
   &gold {
     background-color: var(--yellow);
     filter: blur(150px);
-    position: absolute;
+    position: fixed;
     left: -35%;
     bottom: -20%;
     opacity: 0.2;
@@ -102,10 +103,10 @@ body{
   &blue {
     background-color: var(--lightblue);
     filter: blur(150px);
-    position: absolute;
+    position: fixed;
     right: -35%;
     bottom: -10%;
-    opacity: 0.2;
+    opacity: 0.4;
     z-index: -1;
     width: 65%;
     height: auto;
@@ -116,10 +117,10 @@ body{
   &green {
     background-color: var(--green);
     filter: blur(150px);
-    position: absolute;
+    position: fixed;
     left: -35%;
     bottom: -20%;
-    opacity: 0.25;
+    opacity: 0.4;
     z-index: -1;
     width: 65%;
     height: auto;

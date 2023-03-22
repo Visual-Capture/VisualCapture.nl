@@ -127,7 +127,7 @@ html {
   transform: translateY(-50%);
 }
 .priceCalculator .callToAction .text {
-  font: 1.2em Regular, sans-serif;
+  font: 1.1em Regular, sans-serif;
   display: inline-block;
 }
 .priceCalculator .callToAction .VC_arrow {
@@ -161,7 +161,7 @@ html {
 }
 .welcomeContainer .sub {
   padding-top: 1.2em;
-  font: 1.2em Regular, sans-serif;
+  font: 1.1em Regular, sans-serif;
   margin-bottom: 2em;
 }
 
@@ -195,7 +195,7 @@ html {
   }
   .welcomeContainer .sub {
     padding-top: 1.2em;
-    font: 1.2em Regular, sans-serif;
+    font: 1.1em Regular, sans-serif;
     margin-bottom: 2em;
   }
 }
@@ -220,7 +220,7 @@ html {
   }
   .welcomeContainer .sub {
     padding-top: 1em;
-    font: 1em Regular, sans-serif;
+    font: 0.9em Regular, sans-serif;
   }
 }
 @media screen and (max-width: 1020px) {
@@ -244,7 +244,7 @@ html {
   }
   .welcomeContainer .sub {
     padding-top: 1.2em;
-    font: 1em Regular, sans-serif;
+    font: 0.9em Regular, sans-serif;
   }
 }
 @media screen and (max-width: 900px) {
@@ -260,7 +260,7 @@ html {
   }
   .welcomeContainer .sub {
     padding-top: 1.2em;
-    font: 1em Regular, sans-serif;
+    font: 0.9em Regular, sans-serif;
   }
 }
 @media screen and (max-width: 768px) {
@@ -333,7 +333,7 @@ html {
   }
   .welcomeContainer .sub {
     padding-top: 1em;
-    font: 1em Regular, sans-serif;
+    font: 0.9em Regular, sans-serif;
   }
 
   .VC_logo {
@@ -376,7 +376,7 @@ html {
     text-align: center;
   }
   .callToActionMobile .text {
-    font: 1em Regular, sans-serif;
+    font: 0.9em Regular, sans-serif;
     display: inline-block;
   }
   .callToActionMobile .VC_arrow {
@@ -423,7 +423,7 @@ html {
     position: relative;
   }
   .priceCalculator .callToAction .text {
-    font: 0.8em Regular, sans-serif;
+    font: 0.7em Regular, sans-serif;
     display: inline-block;
   }
   .priceCalculator .callToAction .VC_arrow {
@@ -453,7 +453,7 @@ html {
   }
   .welcomeContainer .sub {
     padding-top: 0.8em;
-    font: 0.9em Regular, sans-serif;
+    font: 0.8em Regular, sans-serif;
   }
 
   .callToActionMobile {
@@ -465,7 +465,7 @@ html {
     text-align: center;
   }
   .callToActionMobile .text {
-    font: 0.8em Regular, sans-serif;
+    font: 0.7em Regular, sans-serif;
     display: inline-block;
   }
   .callToActionMobile .VC_arrow {
@@ -513,7 +513,7 @@ html {
     position: relative;
   }
   .priceCalculator .callToAction .text {
-    font: 0.8em Regular, sans-serif;
+    font: 0.7em Regular, sans-serif;
     display: inline-block;
   }
   .priceCalculator .callToAction .VC_arrow {
@@ -543,7 +543,7 @@ html {
   }
   .welcomeContainer .sub {
     padding-top: 0.8em;
-    font: 0.8em Regular, sans-serif;
+    font: 0.7em Regular, sans-serif;
   }
 
   .priceCalculator {
@@ -570,7 +570,7 @@ html {
     position: relative;
   }
   .priceCalculator .callToAction .text {
-    font: 0.8em Regular, sans-serif;
+    font: 0.7em Regular, sans-serif;
     display: inline-block;
   }
   .priceCalculator .callToAction .VC_arrow {

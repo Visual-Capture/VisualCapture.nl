@@ -267,6 +267,24 @@ h4 {
   border-radius: 1000vmax 1000vmax 0 0;
 }
 
+.logo_href picture img {
+  cursor: pointer;
+}
+.logo_href picture img:hover {
+  transition: 0.35s;
+  transform: scale(95.5%);
+  filter: invert(35%);
+}
+
+.logo_href_white picture img {
+  cursor: pointer;
+}
+.logo_href_white picture img:hover {
+  transition: 0.35s;
+  transform: scale(95.5%);
+  filter: invert(10%);
+}
+
 .VC_carousel {
   position: relative;
   display: inline-block;

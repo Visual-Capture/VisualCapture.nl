@@ -105,8 +105,9 @@ h4 {
 
 .side-fades:before {
   left: 0;
-  background: linear-gradient(90deg,var(--white) 20%,transparent 100%);
+  background: linear-gradient(90deg, var(--white) 20%, transparent 100%);
 }
+
 .side-fades:after {
   right: 0;
   background: linear-gradient(90deg, transparent 0%, var(--white) 80%);
@@ -306,6 +307,32 @@ h4 {
   }
 }
 
+.logo_href {
+  picture {
+    img {
+      cursor: pointer;
+
+      &:hover {
+        transition: .35s;
+        transform: scale(95.5%);
+        filter: invert(35%);
+      }
+    }
+  }
+}
+.logo_href_white {
+  picture {
+    img {
+      cursor: pointer;
+
+      &:hover {
+        transition: .35s;
+        transform: scale(95.5%);
+        filter: invert(10%);
+      }
+    }
+  }
+}
 
 .VC_carousel {
   position: relative;

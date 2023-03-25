@@ -270,7 +270,7 @@ h4 {
 .VC_carousel {
   position: relative;
   display: inline-block;
-  width: 80vw;
+  width: 60vw;
   max-width: 48em;
   margin: 3em 0.5em;
 }

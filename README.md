@@ -15,4 +15,6 @@ We are a team of passionate photographers and web developers who are dedicated t
 
 ## Contact Us
 
-If you're interested in learning more about our services or would like to book a
+If you're interested in learning more about our services or would like to book a photography session or web product, please contact us at info@visualcapture.nl or visit our website at https://www.visualcapture.nl.
+
+Thank you for considering VisualCapture.nl for your photography and web development needs!

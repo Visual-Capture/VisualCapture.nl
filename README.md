@@ -1,6 +1,6 @@
 # VisualCapture.nl
 
-Welcome to the VisualCapture.nl website! This website is all about capturing your vision through photography and custom web products. We specialize in couple, portrait, and wedding photography, as well as creating custom web products tailored to your needs.
+Welcome to the VisualCapture.nl website! This website is all about capturing your vision through photography and custom web products. We specialize in business, portrait, couple and wedding photography, as well as creating custom web products tailored to your needs.
 
 ## Services Offered
 

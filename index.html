@@ -401,4 +401,42 @@
         document.getElementById("image_startup_WebProducts").classList.add("move");
     }
 
+
+    // Set cookie function
+    function setCookie(name, value, days) {
+        let expires = "";
+        if (days) {
+            let date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+
+    // Get cookie function
+    function getCookie(name) {
+        let nameEQ = name + "=";
+        let ca = document.cookie.split(';');
+        for(let i=0;i < ca.length;i++) {
+            let c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+
+    // Check if cookie exists
+    let cookieName = "myCookie";
+    let cookieValue = "myValue";
+    let cookieExpirationDays = 7;
+
+    if (getCookie(cookieName) === null) {
+        setCookie(cookieName, cookieValue, cookieExpirationDays);
+    } else {
+        console.log("Cookie exists!");
+    }
+
+    console.log("test Cookie");
+
+
 </script>

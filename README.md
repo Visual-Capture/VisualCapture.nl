@@ -1,17 +1,30 @@
 # VisualCapture.nl
 
-Welcome to the VisualCapture.nl website! This website is all about capturing your vision through photography and custom web products. We specialize in business, portrait, couple and wedding photography, as well as creating custom web products tailored to your needs.
+Welcome to the VisualCapture.nl GitHub! This website is all about capturing your vision through photography and custom web products. We specialize in business, portrait, couple and wedding photography, as well as creating custom web products tailored to your needs.
 
 ## Services Offered
 
-- Couple photography
+- Business photography
 - Portrait photography
+- Couple photography
 - Wedding photography
 - Custom web products
 
 ## About Us
 
-We are a team of passionate photographers and web developers who are dedicated to capturing your vision and bringing it to life through our services. We take pride in our work and strive to create a unique and personalized experience for each of our clients.
+
+*[Met hart en ziel](https://visualcapture.nl)*
+<br>**Meet Vincent Maximus**
+<p>
+Vincent is the driving force behind Visual Capture. In addition to advice and support, he is not afraid to face challenges, will always try to learn something new rather than saying it's not possible. Always in for a good conversation, business or not
+</p>
+
+*[Goed met taal tussen <>](https://visualcapture.nl)*
+<br>**Meet Robin Mager**
+<p>
+  Robin is the indispensable pivot behind the complex, yet well thought-out structures, and helps you with technical problems.
+</p>
+
 
 ## Contact Us
 

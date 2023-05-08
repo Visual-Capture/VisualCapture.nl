@@ -700,4 +700,46 @@ html {
   opacity: 0.75;
 }
 
+.sub {
+  margin-top: 0.1em;
+  font: 0.8em ExtraLight, sans-serif;
+  color: var(--white);
+}
+
+.main {
+  font: 2em Fancy-Semibold, sans-serif;
+}
+
+.description {
+  margin-top: 1.2em;
+  font: 0.9em ExtraLight, sans-serif;
+}
+
+.welcome_visual_capture_content {
+  padding-top: 5em;
+  text-align: center;
+}
+.welcome_visual_capture_content .main {
+  font: 3.4em Fancy-Regular, sans-serif;
+}
+.welcome_visual_capture_content .sub {
+  margin-top: 0.1em;
+  font: 1em ExtraLight, sans-serif;
+  color: var(--gray);
+  padding-bottom: 1em;
+}
+
+#headquarters {
+  cursor: pointer;
+}
+
+.welcome_visual_capture {
+  width: 100%;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  margin: 1em 0;
+}
+
 /*# sourceMappingURL=style_VC.css.map */

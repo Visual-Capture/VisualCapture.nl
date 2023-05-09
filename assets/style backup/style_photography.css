@@ -1,0 +1,247 @@
+/*white mode*/
+/*body {*/
+/*    font: 20px Medium, sans-serif;*/
+/*    color: var(--dark);*/
+/*    background-color: var(--white);*/
+/*    margin: 0;*/
+/*}*/
+/*dark mode*/
+body {
+  font: 20px Medium, sans-serif;
+  color: var(--white);
+  background-color: var(--dark);
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/*menu-menu*/
+.photoLandingImage {
+  width: 100%;
+}
+
+.picture-holder {
+  display: block;
+}
+
+/*desktop*/
+.portfolio-container {
+  padding: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .portfolio-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+  }
+}
+.portfolio-intro-content {
+  padding: 0 0 0 15px;
+}
+
+.portrait {
+  width: 100%;
+  bottom: 0;
+  padding: 5.5em 0 0 0;
+}
+
+.mini-portraits {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.portfolio-intro .title {
+  padding: 0 1em;
+  top: 0;
+  position: absolute;
+  mix-blend-mode: difference;
+}
+.portfolio-intro .title .main {
+  font: 4.2em Fancy-Semibold, sans-serif;
+}
+.portfolio-intro .title .sub {
+  padding-top: 0.6em;
+  font: 1.6em ExtraLight, sans-serif;
+}
+
+.subTitle {
+  padding: 0.5em;
+}
+.subTitle .main {
+  font: 2.6em Fancy-Semibold, sans-serif;
+}
+.subTitle .description {
+  font: 1.3em ExtraLight, sans-serif;
+}
+
+.Visual_Capture_portfolio {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.circle_blur_gold {
+  background-color: var(--yellow);
+  filter: blur(150px);
+  position: absolute;
+  left: -25%;
+  opacity: 0.45;
+  z-index: -1;
+  width: 55%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_blue {
+  background-color: var(--blue);
+  filter: blur(150px);
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+  width: 55%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+  width: 50em;
+  z-index: 0;
+  right: -35%;
+  top: -20%;
+}
+.circle_blur_green {
+  background-color: var(--lightgreen);
+  filter: blur(150px);
+  position: absolute;
+  right: -30%;
+  top: 12em;
+  opacity: 0.3;
+  z-index: -1;
+  width: 60%;
+  height: 60%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_green {
+  background-color: var(--green);
+  filter: blur(150px);
+  position: absolute;
+  right: -30%;
+  opacity: 0.5;
+  z-index: -1;
+  width: 60%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_gold_footer {
+  background-color: var(--yellow);
+  filter: blur(150px);
+  position: absolute;
+  left: -25%;
+  opacity: 0.6;
+  bottom: -6em;
+  z-index: -1;
+  width: 55%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_blue_footer {
+  background-color: var(--lightblue);
+  filter: blur(150px);
+  position: absolute;
+  right: 20%;
+  opacity: 0.6;
+  z-index: -1;
+  margin-top: 6em;
+  width: 40%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+
+.ourStoryText .coloredTitle {
+  color: var(--yellow);
+  font: 1em ExtraLight, sans-serif;
+}
+.ourStoryText .title {
+  margin-top: 0.1em;
+  font: 3.2em Fancy-Semibold, sans-serif;
+}
+.ourStoryText .text {
+  font: 1em Medium, sans-serif;
+}
+
+@media screen and (min-width: 1900px) {
+  .subTitle .main {
+    font: 2.8em Fancy-Semibold, sans-serif;
+  }
+  .subTitle .description {
+    font: 1.4em ExtraLight, sans-serif;
+  }
+}
+@media screen and (max-width: 996px) {
+  .portfolio-intro .title {
+    padding: 1em 1em;
+    top: 0;
+    position: absolute;
+    mix-blend-mode: difference;
+  }
+  .portfolio-intro .title .main {
+    font: 3.2em Fancy-Semibold, sans-serif;
+  }
+  .portfolio-intro .title .sub {
+    padding-top: 0.6em;
+    font: 1.4em ExtraLight, sans-serif;
+  }
+
+  .subTitle .main {
+    font: 2em Fancy-Semibold, sans-serif;
+  }
+  .subTitle .description {
+    font: 1em ExtraLight, sans-serif;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio-intro-content {
+    padding: 0;
+  }
+
+  .portfolio-intro .title {
+    padding: 1.5em 0.5em;
+    top: 0;
+    position: absolute;
+    mix-blend-mode: difference;
+  }
+  .portfolio-intro .title .main {
+    font: 2.8em Fancy-Semibold, sans-serif;
+  }
+  .portfolio-intro .title .sub {
+    padding-top: 0.6em;
+    font: 1.2em ExtraLight, sans-serif;
+  }
+
+  .portfolio-container {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .subTitle .main {
+    font: 2em Fancy-Semibold, sans-serif;
+  }
+  .subTitle .description {
+    font: 1em ExtraLight, sans-serif;
+  }
+}
+.footer .VC_logo {
+  color: var(--white);
+}
+.footer .footer_desc {
+  color: var(--white);
+}
+
+/*# sourceMappingURL=style_photography.css.map */

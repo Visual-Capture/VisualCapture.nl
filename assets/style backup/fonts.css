@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Black;
+    src: url("../font/Poppins/Poppins-Black.woff2");
+}
+
+@font-face {
+    font-family: Bold;
+    src: url("../font/Poppins/Poppins-Bold.woff2");
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url("../font/Poppins/Poppins-SemiBold.woff2");
+}
+
+@font-face {
+    font-family: Medium;
+    src: url("../font/Poppins/Poppins-Medium.woff2");
+}
+
+@font-face {
+    font-family: Regular;
+    src: url("../font/Poppins/Poppins-Regular.woff2");
+}
+
+@font-face {
+    font-family: Light;
+    src: url("../font/Poppins/Poppins-Light.woff2");
+}
+@font-face {
+    font-family: ExtraLight;
+    src: url("../font/Poppins/Poppins-ExtraLight.woff2");
+}
+
+.Black {
+    font-family: Black !important;
+}
+
+.Bold {
+    font-family: Bold !important;
+}
+
+.SemiBold {
+    font-family: SemiBold !important;
+}
+
+.Medium {
+    font-family: Medium !important;
+}
+
+.Regular {
+    font-family: Regular !important;
+}
+
+.Light {
+    font-family: Light !important;
+}
+.ExtraLight {
+    font-family: ExtraLight !important;
+}
+
+
+/*fancy*/
+
+@font-face {
+    font-family: Fancy-Regular;
+    src: url("../font/ACaslonPro/ACaslonPro-Regular.otf");
+}
+@font-face {
+    font-family: Fancy-Semibold;
+    src: url("../font/ACaslonPro/ACaslonPro-Semibold.otf");
+}
+
+.Fancy-Regular {
+    font-family: Fancy-Regular !important;
+}
+.Fancy-Semibold {
+    font-family: Fancy-Semibold !important;
+}
+
+p {
+    line-height: 1.2em !important;
+}

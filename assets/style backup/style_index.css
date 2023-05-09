@@ -1,0 +1,324 @@
+html {
+  overflow-x: auto;
+}
+
+body {
+  position: relative;
+  width: 100%;
+}
+
+.hidden {
+  opacity: 0;
+  transition-duration: 1.5s;
+}
+
+.image_startup {
+  transform: translateY(6em) scale(0.94);
+  transition-duration: 0.5s;
+}
+.image_startup .web_img_img {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+}
+
+.sub {
+  margin-top: 0.1em;
+  font: 0.8em ExtraLight, sans-serif;
+  color: var(--yellow);
+}
+
+.main {
+  font: 2em Fancy-Semibold, sans-serif;
+}
+
+.description {
+  margin-top: 1.2em;
+  font: 0.9em ExtraLight, sans-serif;
+}
+
+.welcome_visual_capture_content {
+  padding-top: 5em;
+  text-align: center;
+}
+.welcome_visual_capture_content .main {
+  font: 3.4em Fancy-Regular, sans-serif;
+}
+.welcome_visual_capture_content .sub {
+  margin-top: 0.1em;
+  font: 1em ExtraLight, sans-serif;
+  color: var(--gray);
+  padding-bottom: 1em;
+}
+
+#headquarters {
+  cursor: pointer;
+}
+
+.welcome_visual_capture {
+  width: 100%;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  margin: 1em 0;
+}
+
+.handsome_guy {
+  width: 100%;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+  margin: 1em 0;
+}
+
+.move {
+  transform: none;
+}
+
+.show {
+  opacity: 100;
+  transform: none;
+}
+
+.VC_options {
+  margin-bottom: 14em;
+}
+
+.circle_blur_gold {
+  background-color: var(--yellow);
+  filter: blur(150px);
+  position: fixed;
+  left: -35%;
+  bottom: -20%;
+  opacity: 0.2;
+  z-index: -1;
+  width: 65%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_blue {
+  background-color: var(--lightblue);
+  filter: blur(150px);
+  position: fixed;
+  right: -35%;
+  bottom: -10%;
+  opacity: 0.4;
+  z-index: -1;
+  width: 65%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_green {
+  background-color: var(--green);
+  filter: blur(150px);
+  position: fixed;
+  left: -35%;
+  bottom: -20%;
+  opacity: 0.4;
+  z-index: -1;
+  width: 65%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_gold_footer {
+  background-color: var(--yellow);
+  filter: blur(150px);
+  position: absolute;
+  left: -25%;
+  opacity: 0.6;
+  z-index: -1;
+  width: 55%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_blue_footer {
+  background-color: var(--lightblue);
+  filter: blur(150px);
+  position: absolute;
+  right: 20%;
+  opacity: 0.6;
+  z-index: -1;
+  margin-top: 6em;
+  width: 40%;
+  height: auto;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .VC_options {
+    position: relative;
+  }
+
+  .VC_option_holder {
+    margin-top: 35%;
+  }
+
+  .web-img {
+    z-index: -1;
+  }
+
+  .web-img img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 18px;
+  }
+
+  .web_img_bg {
+    border-radius: 18px;
+    z-index: 1;
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 8px 24px;
+    transition: 0.3s;
+  }
+  .web_img_bg:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 4px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 4px;
+  }
+
+  .web_context {
+    z-index: 2;
+    bottom: -25%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+  }
+
+  .VC_arrow {
+    width: 10vw;
+    width: 10vmin;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+
+  .VC_option_subtitle {
+    font: 0.9vw ExtraLight, sans-serif;
+    font: 1.3vmin ExtraLight, sans-serif;
+    color: var(--yellow);
+    margin-bottom: 0.4em;
+  }
+
+  .VC_option_title {
+    display: inline-block;
+    font: 4.3vw Fancy-Regular, sans-serif;
+    font: 4.2vmin Fancy-Regular, sans-serif;
+    color: var(--white);
+  }
+}
+@media screen and (max-width: 1250px) {
+  .VC_options {
+    max-width: none;
+  }
+
+  .web-img img {
+    width: 100%;
+  }
+
+  .web_img_bg {
+    width: 88%;
+  }
+
+  .web_context {
+    width: 37vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobile_overlay {
+    background: white;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .VC_logo {
+    display: none;
+  }
+
+  .VC_logo_mobile {
+    display: block !important;
+    margin-top: 2.5em;
+    font: 28px Bold, sans-serif;
+    text-decoration: none;
+    color: var(--dark);
+    position: absolute;
+    /*top: 35px;*/
+    left: 50%;
+    transform: translate(-50%);
+    width: 25%;
+    text-align: center;
+    z-index: 3;
+  }
+
+  .VC_options {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none;
+    height: 100vh;
+  }
+
+  .no_spacing_mob {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .web_img_bg {
+    display: none;
+  }
+
+  .VC_arrow {
+    display: none;
+  }
+
+  .web-img img {
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
+    width: 100%;
+  }
+
+  .web_context {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    bottom: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17em;
+  }
+
+  .VC_option_subtitle {
+    font: 0.8em ExtraLight, sans-serif;
+    color: var(--yellow);
+    margin-bottom: 0.4em;
+  }
+
+  .VC_option_title {
+    display: inline-block;
+    font: 2.4em Fancy-Regular, sans-serif;
+    color: var(--white);
+  }
+}
+
+/*# sourceMappingURL=style_index.css.map */

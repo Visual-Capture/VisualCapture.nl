@@ -26,7 +26,7 @@ h4 {
 }
 
 .card-container {
-  margin: 2em auto;
+  margin: 0 auto;
   max-width: 54em;
 }
 
@@ -49,7 +49,7 @@ h4 {
 }
 .VC_card .title {
   padding-top: 20%;
-  font: 2em Fancy-Semibold, sans-serif;
+  font: 1em Fancy-Semibold, sans-serif;
   height: 4em;
   padding-bottom: 0;
 }
@@ -153,9 +153,6 @@ h4 {
   padding-bottom: 0;
 }
 
-.VC_work_container {
-  padding-top: 5%;
-}
 .VC_work_container .VC_partners {
   position: relative;
 }
@@ -210,7 +207,7 @@ h4 {
   position: absolute;
   left: -25%;
   bottom: -20%;
-  opacity: 0.8;
+  opacity: 0.5;
   z-index: -1;
   width: 55%;
   height: auto;

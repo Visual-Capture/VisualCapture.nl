@@ -78,7 +78,7 @@
   height: 88px;
   z-index: 2;
   filter: grayscale(1);
-  transition: 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .card:hover .card-icon {

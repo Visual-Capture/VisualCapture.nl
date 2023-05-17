@@ -21,6 +21,12 @@ h4 {
   margin-bottom: 0;
 }
 
+.visual-capture-container{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .webLandingImage {
   width: 100%;
 }
@@ -155,8 +161,9 @@ h4 {
     background-color: var(--extrawhite);
     border-radius: 10px;
     padding: 2.5em .5em 2em .5em;
-    height: auto;
+    height: 12em;
     Width: 369px;
+    margin: 0;
 
     .main {
       padding-bottom: 1em;

@@ -21,6 +21,12 @@ h4 {
   margin-bottom: 0;
 }
 
+.visual-capture-container {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .webLandingImage {
   width: 100%;
 }
@@ -139,8 +145,9 @@ h4 {
   background-color: var(--extrawhite);
   border-radius: 10px;
   padding: 2.5em 0.5em 2em 0.5em;
-  height: auto;
+  height: 12em;
   Width: 369px;
+  margin: 0;
 }
 .work_deliverables .swiper-slide .main {
   padding-bottom: 1em;
@@ -207,7 +214,7 @@ h4 {
   position: absolute;
   left: -25%;
   bottom: -20%;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: -1;
   width: 55%;
   height: auto;

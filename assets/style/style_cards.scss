@@ -19,7 +19,7 @@
 #cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 24px;
   justify-content: center;
   width: 100%;
 }
@@ -72,7 +72,7 @@
 
 .card::after {
   background: radial-gradient(
-                  600px circle at var(--mouse-x) var(--mouse-y),
+                  700px circle at var(--mouse-x) var(--mouse-y),
                   var(--hover-card-border),
                   transparent 40%
   );
@@ -195,15 +195,20 @@ i {
 
 @media(max-width: 500px) {
   .card {
-    height: 180px;
+    height: 300px;
+    width: 80%;
+    margin: 0;
+  }
+
+  .card-icon{
+    height: 88px;
+    z-index: 2;
+    filter: grayscale(0);
+    transition: .25s ease-in-out;
   }
 
   .card-image {
     height: 80px;
-  }
-
-  .card-image > i {
-    font-size: 3em;
   }
 
   .card-info-wrapper {

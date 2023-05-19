@@ -164,14 +164,15 @@ i {
 
   .card {
     flex-shrink: 1;
-    width: calc(50% - 4px);
+    width: calc(70% - 4px);
+    margin: 0;
+    height: 300px;
   }
 }
 @media (max-width: 500px) {
   .card {
     height: 300px;
     width: 80%;
-    margin: 0;
   }
 
   .card-icon {

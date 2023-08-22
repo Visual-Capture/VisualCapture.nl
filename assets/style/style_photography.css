@@ -61,6 +61,7 @@ body {
   top: 0;
   position: absolute;
   mix-blend-mode: difference;
+  z-index: 1;
 }
 .portfolio-intro .title .main {
   font: 4.2em Fancy-Semibold, sans-serif;

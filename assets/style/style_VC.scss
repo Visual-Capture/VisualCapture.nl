@@ -844,3 +844,26 @@ html {
   margin: 1em 0;
 }
 
+//Text Animation
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.revealUp1 {
+  animation-delay: 250ms;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+//.revealUp {
+//  transition: opacity 1.25s, transform 1.25s;
+//  opacity: 0;
+//}
+
+//.revealUp {
+//  opacity: 0;
+//  visibility: hidden;
+//
+//}

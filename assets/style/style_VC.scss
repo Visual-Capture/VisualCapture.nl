@@ -304,7 +304,6 @@ html {
     display: block !important;
   }
 
-
   .footer {
     padding-top: 4em !important;
 
@@ -372,6 +371,17 @@ html {
     .sub {
       padding-top: 1em;
       font: .9em Regular, sans-serif;
+    }
+  }
+
+  //jump here
+  .menu-bar{
+    .menu-item {
+      font: 16px Regular, sans-serif;
+    }
+
+    .menu-icon {
+      display: none;
     }
   }
 
@@ -881,28 +891,31 @@ html {
     color: var(--blue);
     opacity: 0.8;
   }
-}
 
-.menu-item {
-  margin: 0 15px;
-  text-decoration: none;
-  color: rgba(105, 105, 105, 0.8);
-  transition: 0.3s ease;
-  font: 18px Regular, sans-serif;
-  &:hover {
-    transform: scale(0.98);
+  .menu-item {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgba(105, 105, 105, 0.8);
+    transition: 0.3s ease;
+    font: 18px Regular, sans-serif;
+    &:hover {
+      transform: scale(0.98);
+    }
+  }
+
+
+  .menu-icon {
+    opacity: 0.6;
+    width: auto;
+    height: 24px;
+    margin-right: 20px;
+    transition: 0.3s ease;
+    &:hover {
+      transform: scale(0.95);
+      opacity: 0.8;
+    }
   }
 }
 
-.menu-icon {
-  opacity: 0.6;
-  width: auto;
-  height: 24px;
-  margin-right: 20px;
-  transition: 0.3s ease;
-  &:hover {
-    transform: scale(0.95);
-    opacity: 0.8;
-  }
-}
+
 

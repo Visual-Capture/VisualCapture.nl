@@ -159,8 +159,11 @@ body {
 
 #intro-loader {
     height: 100vh;
-    position: relative;
+    width: 100vw;
+    position: absolute;
+    z-index: 100;
 }
+
 
 .intro {
     z-index: 2;
@@ -337,6 +340,7 @@ body {
         font: 0.8em light, sans-serif;
     }
 }
+
 /*Loading screen end*/
 
 /*spacer*/
@@ -352,10 +356,6 @@ body {
 .spacer-10 {
     padding-top: 10em;
 }
-
-
-
-
 
 
 /*Background lines start*/

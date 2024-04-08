@@ -3,8 +3,8 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray(".revealUpImg").forEach(function (elem) {
     ScrollTrigger.create({
         trigger: elem,
-        start: "top 90%",
-        end: "bottom 10%",
+        start: "top 92%",
+        end: "bottom 8%",
         markers: false,
         onEnter: function () {
             gsap.fromTo(

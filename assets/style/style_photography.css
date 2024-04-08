@@ -91,11 +91,23 @@ body {
   background-color: var(--yellow);
   filter: blur(150px);
   position: absolute;
-  left: -25%;
-  opacity: 0.45;
+  left: -35%;
+  opacity: 0.35;
   z-index: -1;
   width: 55%;
-  height: auto;
+  height: 25%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_gold_right {
+  background-color: var(--yellow);
+  filter: blur(150px);
+  position: absolute;
+  right: -30%;
+  opacity: 0.35;
+  z-index: -1;
+  width: 55%;
+  height: 15%;
   aspect-ratio: 2;
   border-radius: 1000vmax 1000vmax 0 0;
 }
@@ -119,10 +131,23 @@ body {
   position: absolute;
   right: -30%;
   top: 12em;
-  opacity: 0.3;
+  opacity: 0.4;
   z-index: -1;
   width: 60%;
   height: 60%;
+  aspect-ratio: 2;
+  border-radius: 1000vmax 1000vmax 0 0;
+}
+.circle_blur_purple {
+  background-color: var(--purple);
+  filter: blur(150px);
+  position: absolute;
+  right: -30%;
+  top: 85em;
+  opacity: 0.3;
+  z-index: -1;
+  width: 60%;
+  height: 20%;
   aspect-ratio: 2;
   border-radius: 1000vmax 1000vmax 0 0;
 }
@@ -131,7 +156,7 @@ body {
   filter: blur(150px);
   position: absolute;
   right: -30%;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: -1;
   width: 60%;
   height: auto;
@@ -199,7 +224,6 @@ body {
     padding-top: 0.6em;
     font: 1.4em ExtraLight, sans-serif;
   }
-
   .subTitle .main {
     font: 2em Fancy-Semibold, sans-serif;
   }
@@ -211,7 +235,6 @@ body {
   .portfolio-intro-content {
     padding: 0;
   }
-
   .portfolio-intro .title {
     padding: 1.5em 0.5em;
     top: 0;
@@ -225,7 +248,6 @@ body {
     padding-top: 0.6em;
     font: 1.2em ExtraLight, sans-serif;
   }
-
   .portfolio-container {
     padding: 1rem;
   }

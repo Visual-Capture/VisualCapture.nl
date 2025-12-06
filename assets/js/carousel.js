@@ -64,6 +64,8 @@ class DragScroll {
         this.move()
     }
 
+
+
     handleTouchEnd() {
         this.dragging = false
         this.$el.classList.remove('dragging')

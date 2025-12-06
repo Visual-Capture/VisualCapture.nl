@@ -70,6 +70,28 @@ html {
   }
 }
 
+
+.partners{
+  width: 12em;
+  border-radius: 15px;
+  padding: 0 1em;
+
+  &.bigger{
+    width: 15em;
+
+  }
+}
+
+.centered-cols {
+  display: flex;
+  justify-content: center; /* Centers the columns horizontally in the container */
+  align-items: center; /* Optional: Aligns items vertically, useful if columns have different heights */
+}
+
+.centered-cols .col {
+  flex: 0 0 auto; /* Prevents columns from stretching. They will only be as wide as their content */
+}
+
 /*menu-menu*/
 .VC_logo {
   margin-top: 1em;
